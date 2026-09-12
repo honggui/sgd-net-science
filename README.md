@@ -1,55 +1,47 @@
 # SGD-Net Science — Architecture Research for Scientific and Physical AI
 
-**图结构、时间记忆、几何约束与自适应计算的模型架构研究。**
+**Graph structure, temporal memory, geometric constraints, and adaptive computation.**
 
-[在线阅读](https://honggui.github.io/sgd-net-science/) · [GitHub 项目](https://github.com/honggui/sgd-net-science) · [开始阅读](guide/start-here.md) · [全书目录](SUMMARY.md)
+**[Read in English](https://honggui.github.io/sgd-net-science/en/) · [阅读中文版](https://honggui.github.io/sgd-net-science/zh/)**
 
-这里公开 SGD-Net 的论文、模型组件、数学分析和领域构建方案。当前是研究设计文档，未附训练代码、模型权重或已验证的性能成绩。
+SGD-Net Science publishes research papers, a model component catalog, mathematical analyses, and proposals for scientific and physical AI. This is a research design project: no accompanying trained model, weights, or validated performance results are provided.
 
-**本页目录**
+本项目公开 SGD-Net 的论文、模型组件、数学分析与科学/物理 AI 构建方案。当前属于研究设计，未附训练模型、权重或已验证的性能成果。
 
-- [开始阅读](#section-001)
-- [你可以在这里找到什么](#section-002)
-- [阅读方式](#section-003)
-- [附录与维护](#section-004)
-
----
-
-## 开始阅读 <a href="#section-001" id="section-001"></a>
-
-- [首次阅读：选择适合你的路线](guide/start-here.md)
-- [全书目录](SUMMARY.md)
-- [术语与阅读约定](guide/glossary.md)
-- [研究状态与贡献边界](guide/status.md)
-
-## 你可以在这里找到什么 <a href="#section-002" id="section-002"></a>
-
-| 内容 | 推荐入口 |
+| English | 中文 |
 |---|---|
-| 研究问题与论文方法 | [论文与研究问题](docs/01-SGD-Net学术论文.md) |
-| 统一组件与模型构建 | [统一架构与组件全集](docs/36-SGD-Net统一基础模型架构与组件单元全集20260912.md) |
-| 层、算子与实现细节 | [层与算子详解](docs/13-SGD-Net模型架构与层算子详解.md) |
-| 表达能力与误差分析 | [函数空间与数值误差](docs/48-SGD-Net函数空间算子逼近与约束解空间评估20260912.md) |
-| 动态生长与持续学习 | [动态生长与持续演化](docs/46-SGD-Net先验后验驱动的动态生长与持续演化20260912.md) |
-| 科学与物理 AI 应用 | [跨领域扩展路线](docs/35-SGD-Net跨领域扩展路线与科研任务映射20260912.md) |
-| 可证伪实验与任务卡 | [任务卡与评估路线](docs/49-SGD-Net能力优先路线与数学评估任务卡20260912.md) |
+| [Start here](en/guide/start-here.md) | [从这里开始](zh/guide/start-here.md) |
+| [Full contents](en/SUMMARY.md) | [全书目录](zh/SUMMARY.md) |
+| [Paper and research questions](en/docs/01.md) | [论文与研究问题](zh/docs/01.md) |
+| [Unified architecture and components](en/docs/36.md) | [统一架构与组件全集](zh/docs/36.md) |
+| [Research status](en/guide/status.md) | [研究状态](zh/guide/status.md) |
+| [Component registry](en/architecture/README.md) | [组件登记](zh/architecture/README.md) |
 
-## 阅读方式 <a href="#section-003" id="section-003"></a>
+The two complete editions share stable document IDs, equations, and citations. The 33 research documents include long works divided into chapters. The component registry contains 72 top-level units, 27 internal interfaces, and 56 domain units; these are design counts, not implementation claims.
 
-在线阅读站与 GitBook 侧栏按主题组织章节，13 与 36 两篇长文拆为独立章节，页面内提供目录和前后页导航。GitHub 用户可从本页或 SUMMARY.md 直接阅读同一份文档。
+中英文版保留一致的文档编号、公式与引用；33 篇研究文档中的长文已分章。组件登记包含 72 个顶层单元、27 个内部接口与 56 个领域单元，这些数量不代表已实现能力。
 
-完整研究内容来自 33 篇公开文档；组件登记包含 72 个顶层单元、27 个内部接口与七领域的 56 个单元。配置与计数不代表已实现能力，也不要求每个任务同时启用全部组件。
+## Repository layout / 目录结构
 
-## 附录与维护 <a href="#section-004" id="section-004"></a>
+```text
+zh/               Chinese edition / 中文版
+en/               English edition / 英文版
+architecture/     Shared component JSON / 共享组件登记
+i18n/             Translation records and legacy URL map / 译文记录与旧地址映射
+scripts/          Build and validation tools / 构建与检查工具
+site-assets/      Reading interface / 阅读界面
+wiki-entry/       Wiki gateway template / Wiki 入口模板
+```
 
-- [可阅读的组件登记](architecture/README.md)
-- [在线阅读、自动发布与 Wiki 入口](guide/publishing.md)
-- [GitBook 接入与维护](GITBOOK_SETUP.md)
-- [公式与图示显示检查](guide/rendering-check.md)
-- [许可说明](NOTICE.md)
+Edit corresponding zh/ and en/ pages together. CI checks translation versions, equations, and links before publishing both editions to GitHub Pages. Existing Chinese website URLs redirect to the new numbered paths. GitBook configurations remain available for a combined bilingual space or separate language variants.
 
-文中原始文献用于界定已有研究与候选贡献；在线阅读站随 main 分支更新自动构建发布；GitBook 是可选的另一种发布方式，首次导入后仍需预览公式和图示。
+修改正文时同步对应译文；CI 检查译文版本、公式和链接后发布双语 Pages 站点。旧中文网页地址会跳转到新编号路径。GitBook 可使用双语合并目录，也可配置独立语言变体。
 
----
+- [Bilingual maintenance](en/guide/bilingual.md) · [双语维护](zh/guide/bilingual.md)
+- [Publishing and Wiki](en/guide/publishing.md) · [发布与 Wiki](zh/guide/publishing.md)
+- [GitBook setup](en/GITBOOK_SETUP.md) · [GitBook 接入](zh/GITBOOK_SETUP.md)
+- [Licensing notice](en/NOTICE.md) · [许可说明](zh/NOTICE.md)
 
-[全书目录](SUMMARY.md) · [下一页 →](guide/start-here.md)
+Translations are AI-assisted and structurally checked; this does not constitute independent scientific peer review. No new open-source, open-content, or patent license is granted by this publication.
+
+译文经过 AI 辅助翻译与结构检查，不等同于独立学术评审。本次发布未新增开源、开放内容或专利许可。

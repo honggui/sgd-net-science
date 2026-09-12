@@ -3,432 +3,936 @@
     "id": "A01",
     "name": "合同解析",
     "io": "原始记录→带类型样本",
-    "kind_and_operations": "D；字段校验、模式版本"
+    "kind_and_operations": "D；字段校验、模式版本",
+    "translations": {
+      "en": {
+        "name": "Contract parsing",
+        "io": "Raw records → typed samples",
+        "kind_and_operations": "D; field validation and schema versions"
+      }
+    }
   },
   {
     "id": "A02",
     "name": "单位与坐标转换",
     "io": "数值/单位/坐标系→规范物理量",
-    "kind_and_operations": "D；转换与变换记录，保留原值"
+    "kind_and_operations": "D；转换与变换记录，保留原值",
+    "translations": {
+      "en": {
+        "name": "Unit and coordinate conversion",
+        "io": "Values/units/coordinate frames → canonical physical quantities",
+        "kind_and_operations": "D; record conversions and transformations, retaining original values"
+      }
+    }
   },
   {
     "id": "A03",
     "name": "实体绑定",
     "io": "观测对象→稳定 ID/匹配置信度",
-    "kind_and_operations": "D/T；关联、出生消亡、遮挡标记"
+    "kind_and_operations": "D/T；关联、出生消亡、遮挡标记",
+    "translations": {
+      "en": {
+        "name": "Entity binding",
+        "io": "Observed objects → stable IDs/matching confidence",
+        "kind_and_operations": "D/T; association, birth/death, and occlusion flags"
+      }
+    }
   },
   {
     "id": "A04",
     "name": "时间调度",
     "io": "多源时间戳→当前事件及 Δt",
-    "kind_and_operations": "D；乱序策略、最大观测年龄"
+    "kind_and_operations": "D；乱序策略、最大观测年龄",
+    "translations": {
+      "en": {
+        "name": "Temporal scheduling",
+        "io": "Multi-source timestamps → current events and Δt",
+        "kind_and_operations": "D; out-of-order policy and maximum observation age"
+      }
+    }
   },
   {
     "id": "A05",
     "name": "缺失与质量掩码",
     "io": "观测/QC→有效性/噪声提示",
-    "kind_and_operations": "D；无观测不填充真零标签"
+    "kind_and_operations": "D；无观测不填充真零标签",
+    "translations": {
+      "en": {
+        "name": "Missingness and quality masks",
+        "io": "Observations/QC → validity/noise cues",
+        "kind_and_operations": "D; do not fill unobserved labels with genuine zeros"
+      }
+    }
   },
   {
     "id": "A06",
     "name": "域与条件编码输入",
     "io": "本体/物种/样本/边界条件→条件字段",
-    "kind_and_operations": "D；隔离标识字段与可学习条件"
+    "kind_and_operations": "D；隔离标识字段与可学习条件",
+    "translations": {
+      "en": {
+        "name": "Domain and condition inputs",
+        "io": "Embodiment/species/sample/boundary conditions → condition fields",
+        "kind_and_operations": "D; separate identity fields from learnable conditions"
+      }
+    }
   },
   {
     "id": "A07",
     "name": "有界打包",
     "io": "变长节点/边→张量、掩码、索引",
-    "kind_and_operations": "D；溢出拒绝或显式分块"
+    "kind_and_operations": "D；溢出拒绝或显式分块",
+    "translations": {
+      "en": {
+        "name": "Bounded packing",
+        "io": "Variable-length nodes/edges → tensors, masks, and indices",
+        "kind_and_operations": "D; reject overflow or split explicitly into chunks"
+      }
+    }
   },
   {
     "id": "A08",
     "name": "来源绑定",
     "io": "样本及预处理→原始数据引用",
-    "kind_and_operations": "X；版本、切分、实验批次"
+    "kind_and_operations": "X；版本、切分、实验批次",
+    "translations": {
+      "en": {
+        "name": "Provenance binding",
+        "io": "Samples and preprocessing → raw-data references",
+        "kind_and_operations": "X; versions, splits, and experimental batches"
+      }
+    }
   },
   {
     "id": "B01",
     "name": "视觉/体积编码器",
     "io": "图像、视频、显微体积→局部特征",
-    "kind_and_operations": "T；可冻结 CNN/ViT/3D 模型"
+    "kind_and_operations": "T；可冻结 CNN/ViT/3D 模型",
+    "translations": {
+      "en": {
+        "name": "Visual/volumetric encoder",
+        "io": "Images, video, microscopy volumes → local features",
+        "kind_and_operations": "T; optionally frozen CNN/ViT/3D models"
+      }
+    }
   },
   {
     "id": "B02",
     "name": "序列编码器",
     "io": "蛋白/核酸/文本→token 特征",
-    "kind_and_operations": "T；领域预训练模型，序列位置独立于时间"
+    "kind_and_operations": "T；领域预训练模型，序列位置独立于时间",
+    "translations": {
+      "en": {
+        "name": "Sequence encoder",
+        "io": "Proteins/nucleic acids/text → token features",
+        "kind_and_operations": "T; domain-pretrained models; sequence position is independent of time"
+      }
+    }
   },
   {
     "id": "B03",
     "name": "原子/实体编码器",
     "io": "元素、类型、物理属性→节点标量",
-    "kind_and_operations": "T；embedding、MLP、单位归一化"
+    "kind_and_operations": "T；embedding、MLP、单位归一化",
+    "translations": {
+      "en": {
+        "name": "Atom/entity encoder",
+        "io": "Elements, types, physical attributes → node scalars",
+        "kind_and_operations": "T; embeddings, MLPs, and unit normalization"
+      }
+    }
   },
   {
     "id": "B04",
     "name": "信号编码器",
     "io": "触觉/关节/电生理/谱图→事件特征",
-    "kind_and_operations": "T；局部滤波、卷积、通道投影"
+    "kind_and_operations": "T；局部滤波、卷积、通道投影",
+    "translations": {
+      "en": {
+        "name": "Signal encoder",
+        "io": "Tactile/joint/electrophysiological/spectral signals → event features",
+        "kind_and_operations": "T; local filtering, convolution, and channel projection"
+      }
+    }
   },
   {
     "id": "B05",
     "name": "组学编码器",
     "io": "计数/空间组学→细胞或基因特征",
-    "kind_and_operations": "T；库大小/批次条件，不制造配对"
+    "kind_and_operations": "T；库大小/批次条件，不制造配对",
+    "translations": {
+      "en": {
+        "name": "Omics encoder",
+        "io": "Counts/spatial omics → cell or gene features",
+        "kind_and_operations": "T; library-size/batch conditions; do not fabricate pairings"
+      }
+    }
   },
   {
     "id": "B06",
     "name": "条件适配器",
     "io": "任务目标与域条件→调制向量",
-    "kind_and_operations": "T；MLP、FiLM 或小型 adapter"
+    "kind_and_operations": "T；MLP、FiLM 或小型 adapter",
+    "translations": {
+      "en": {
+        "name": "Condition adapter",
+        "io": "Task goals and domain conditions → modulation vectors",
+        "kind_and_operations": "T; MLP, FiLM, or small adapters"
+      }
+    }
   },
   {
     "id": "B07",
     "name": "掩码多模态融合",
     "io": "实体绑定特征→统一节点特征",
-    "kind_and_operations": "T；投影、门控、可选交叉注意力"
+    "kind_and_operations": "T；投影、门控、可选交叉注意力",
+    "translations": {
+      "en": {
+        "name": "Masked multimodal fusion",
+        "io": "Entity-bound features → unified node features",
+        "kind_and_operations": "T; projection, gating, and optional cross-attention"
+      }
+    }
   },
   {
     "id": "B08",
     "name": "JSBO 结构读出",
     "io": "潜表示及测量→物理/领域状态与误差",
-    "kind_and_operations": "T；监督解码与单位恢复，非自动定律证明"
+    "kind_and_operations": "T；监督解码与单位恢复，非自动定律证明",
+    "translations": {
+      "en": {
+        "name": "JSBO structural readout",
+        "io": "Latent representations and measurements → physical/domain states and errors",
+        "kind_and_operations": "T; supervised decoding and unit recovery, not automatic proof of laws"
+      }
+    }
   },
   {
     "id": "C01",
     "name": "图模式管理",
     "io": "领域配置→节点/边类型与属性约束",
-    "kind_and_operations": "D；区分测量边、先验边、预测边"
+    "kind_and_operations": "D；区分测量边、先验边、预测边",
+    "translations": {
+      "en": {
+        "name": "Graph schema management",
+        "io": "Domain configuration → node/edge types and attribute constraints",
+        "kind_and_operations": "D; distinguish measured, prior, and predicted edges"
+      }
+    }
   },
   {
     "id": "C02",
     "name": "固定结构图",
     "io": "URDF/键/参考网格→静态边",
-    "kind_and_operations": "D；关节、键级、参考拓扑"
+    "kind_and_operations": "D；关节、键级、参考拓扑",
+    "translations": {
+      "en": {
+        "name": "Fixed structural graph",
+        "io": "URDF/bonds/reference mesh → static edges",
+        "kind_and_operations": "D; joints, bond orders, and reference topology"
+      }
+    }
   },
   {
     "id": "C03",
     "name": "动态交互图",
     "io": "当前状态→空间/接触/交互边",
-    "kind_and_operations": "D/T；邻域搜索、边分类，构图成本计入"
+    "kind_and_operations": "D/T；邻域搜索、边分类，构图成本计入",
+    "translations": {
+      "en": {
+        "name": "Dynamic interaction graph",
+        "io": "Current state → spatial/contact/interaction edges",
+        "kind_and_operations": "D/T; neighborhood search and edge classification; include graph-construction cost"
+      }
+    }
   },
   {
     "id": "C04",
     "name": "推理层级图",
     "io": "当前计算表示→父子映射与层级",
-    "kind_and_operations": "D；不是物理对象的新增或消失"
+    "kind_and_operations": "D；不是物理对象的新增或消失",
+    "translations": {
+      "en": {
+        "name": "Inference hierarchy graph",
+        "io": "Current computational representation → parent–child mappings and hierarchy",
+        "kind_and_operations": "D; does not create or remove physical objects"
+      }
+    }
   },
   {
     "id": "C05",
     "name": "几何边特征",
     "io": "坐标/向量→距离、相对向量及不变量",
-    "kind_and_operations": "D；旋转/平移变换规则"
+    "kind_and_operations": "D；旋转/平移变换规则",
+    "translations": {
+      "en": {
+        "name": "Geometric edge features",
+        "io": "Coordinates/vectors → distances, relative vectors, and invariants",
+        "kind_and_operations": "D; rotation/translation transformation rules"
+      }
+    }
   },
   {
     "id": "C06",
     "name": "周期边界单元",
     "io": "晶胞/分数坐标→周期映像和邻域",
-    "kind_and_operations": "D/O；多映像、截断与光滑包络"
+    "kind_and_operations": "D/O；多映像、截断与光滑包络",
+    "translations": {
+      "en": {
+        "name": "Periodic boundary unit",
+        "io": "Cell/fractional coordinates → periodic images and neighborhoods",
+        "kind_and_operations": "D/O; multiple images, cutoffs, and smooth envelopes"
+      }
+    }
   },
   {
     "id": "C07",
     "name": "对称性/手性策略",
     "io": "领域类型→E(3)/SE(3)/无几何模式",
-    "kind_and_operations": "D/T；手性特征或专用等变块"
+    "kind_and_operations": "D/T；手性特征或专用等变块",
+    "translations": {
+      "en": {
+        "name": "Symmetry/chirality policy",
+        "io": "Domain type → E(3)/SE(3)/non-geometric mode",
+        "kind_and_operations": "D/T; chiral features or dedicated equivariant blocks"
+      }
+    }
   },
   {
     "id": "C08",
     "name": "图合法性与稀疏布局",
     "io": "图→合法索引/CSR或边列表",
-    "kind_and_operations": "D；跨样本隔离、边/节点掩码"
+    "kind_and_operations": "D；跨样本隔离、边/节点掩码",
+    "translations": {
+      "en": {
+        "name": "Graph validity and sparse layout",
+        "io": "Graph → valid indices/CSR or edge lists",
+        "kind_and_operations": "D; sample isolation and edge/node masks"
+      }
+    }
   },
   {
     "id": "D01",
     "name": "类型保持归一化/投影",
     "io": "标量、向量通道→块输入",
-    "kind_and_operations": "T；标量 LayerNorm；向量按不变范数缩放"
+    "kind_and_operations": "T；标量 LayerNorm；向量按不变范数缩放",
+    "translations": {
+      "en": {
+        "name": "Type-preserving normalization/projection",
+        "io": "Scalar and vector channels → block inputs",
+        "kind_and_operations": "T; scalar LayerNorm; scale vectors by invariant norms"
+      }
+    }
   },
   {
     "id": "D02",
     "name": "消息生成",
     "io": "相邻节点、边、条件→边消息",
-    "kind_and_operations": "T；不变量 MLP；几何与非几何两种模式"
+    "kind_and_operations": "T；不变量 MLP；几何与非几何两种模式",
+    "translations": {
+      "en": {
+        "name": "Message generation",
+        "io": "Adjacent nodes, edges, and conditions → edge messages",
+        "kind_and_operations": "T; invariant MLP; geometric and non-geometric modes"
+      }
+    }
   },
   {
     "id": "D03",
     "name": "消息归约",
     "io": "边消息→节点聚合",
-    "kind_and_operations": "D；sum/mean、掩码、度归一化"
+    "kind_and_operations": "D；sum/mean、掩码、度归一化",
+    "translations": {
+      "en": {
+        "name": "Message reduction",
+        "io": "Edge messages → node aggregates",
+        "kind_and_operations": "D; sum/mean, masking, and degree normalization"
+      }
+    }
   },
   {
     "id": "D04",
     "name": "实体时序 SSM",
     "io": "输入、旧记忆、Δt→预测记忆",
-    "kind_and_operations": "T/O；选择门、离散化、逐实体递归"
+    "kind_and_operations": "T/O；选择门、离散化、逐实体递归",
+    "translations": {
+      "en": {
+        "name": "Entity-wise temporal SSM",
+        "io": "Inputs, previous memory, and Δt → predicted memory",
+        "kind_and_operations": "T/O; selective gates, discretization, and entity-wise recurrence"
+      }
+    }
   },
   {
     "id": "D05",
     "name": "观测创新校正",
     "io": "同时刻预测与观测→校正记忆",
-    "kind_and_operations": "T/O；残差投影、门控、缺失关闭"
+    "kind_and_operations": "T/O；残差投影、门控、缺失关闭",
+    "translations": {
+      "en": {
+        "name": "Observation-innovation correction",
+        "io": "Predictions and observations at the same time → corrected memory",
+        "kind_and_operations": "T/O; residual projection, gating, and disabling under missingness"
+      }
+    }
   },
   {
     "id": "D06",
     "name": "节点残差 FFN",
     "io": "输入/消息/记忆→新节点表示",
-    "kind_and_operations": "T；MLP、残差、可选 dropout"
+    "kind_and_operations": "T；MLP、残差、可选 dropout",
+    "translations": {
+      "en": {
+        "name": "Node residual FFN",
+        "io": "Inputs/messages/memory → new node representations",
+        "kind_and_operations": "T; MLP, residual connection, and optional dropout"
+      }
+    }
   },
   {
     "id": "D07",
     "name": "EGNN 几何读出/更新",
     "io": "标量消息与相对向量→向量或计算坐标",
-    "kind_and_operations": "T/O；标量权重乘方向、邻域归约"
+    "kind_and_operations": "T/O；标量权重乘方向、邻域归约",
+    "translations": {
+      "en": {
+        "name": "EGNN geometric readout/update",
+        "io": "Scalar messages and relative vectors → vectors or computational coordinates",
+        "kind_and_operations": "T/O; scalar weights multiplied by directions and neighborhood reduction"
+      }
+    }
   },
   {
     "id": "D08",
     "name": "度量/流形插槽",
     "io": "指定几何与切空间状态→受约束表示",
-    "kind_and_operations": "T/D/O；metric、retraction 等；默认关闭"
+    "kind_and_operations": "T/D/O；metric、retraction 等；默认关闭",
+    "translations": {
+      "en": {
+        "name": "Metric/manifold slot",
+        "io": "Specified geometry and tangent-space states → constrained representations",
+        "kind_and_operations": "T/D/O; metrics, retractions, and related operations; disabled by default"
+      }
+    }
   },
   {
     "id": "E01",
     "name": "状态转移头",
     "io": "状态、动作、条件→未来状态分布参数",
-    "kind_and_operations": "T；增量、模式概率、尺度或混合分布"
+    "kind_and_operations": "T；增量、模式概率、尺度或混合分布",
+    "translations": {
+      "en": {
+        "name": "State-transition head",
+        "io": "State, action, and conditions → future-state distribution parameters",
+        "kind_and_operations": "T; increments, mode probabilities, scales, or mixture distributions"
+      }
+    }
   },
   {
     "id": "E02",
     "name": "观测似然头",
     "io": "隐状态→观测分布参数",
-    "kind_and_operations": "T；连续/计数/事件，各域指定"
+    "kind_and_operations": "T；连续/计数/事件，各域指定",
+    "translations": {
+      "en": {
+        "name": "Observation-likelihood head",
+        "io": "Latent state → observation-distribution parameters",
+        "kind_and_operations": "T; continuous/count/event likelihoods specified by each domain"
+      }
+    }
   },
   {
     "id": "E03",
     "name": "接触/任务效果头",
     "io": "状态及目标→接触概率、效果",
-    "kind_and_operations": "T/O；节点/边分类、几何效果读出"
+    "kind_and_operations": "T/O；节点/边分类、几何效果读出",
+    "translations": {
+      "en": {
+        "name": "Contact/task-effect head",
+        "io": "State and goal → contact probabilities and effects",
+        "kind_and_operations": "T/O; node/edge classification and geometric-effect readout"
+      }
+    }
   },
   {
     "id": "E04",
     "name": "本体动作头",
     "io": "目标效果、状态、本体→原生动作块",
-    "kind_and_operations": "T/O；动作掩码、时间跨度与可行性标记"
+    "kind_and_operations": "T/O；动作掩码、时间跨度与可行性标记",
+    "translations": {
+      "en": {
+        "name": "Embodiment action head",
+        "io": "Target effects, state, and embodiment → native action chunks",
+        "kind_and_operations": "T/O; action masks, time horizons, and feasibility flags"
+      }
+    }
   },
   {
     "id": "E05",
     "name": "物理属性头",
     "io": "结构表示→能量/力/应力/场",
-    "kind_and_operations": "T/O；守恒力可由能量自动微分产生"
+    "kind_and_operations": "T/O；守恒力可由能量自动微分产生",
+    "translations": {
+      "en": {
+        "name": "Physical-property head",
+        "io": "Structural representations → energy/forces/stress/fields",
+        "kind_and_operations": "T/O; conservative forces may be generated by automatic differentiation of energy"
+      }
+    }
   },
   {
     "id": "E06",
     "name": "生物/功能头",
     "io": "条件表征→表达、表型、事件或终点",
-    "kind_and_operations": "T/O；领域独立似然，不混合不同终点"
+    "kind_and_operations": "T/O；领域独立似然，不混合不同终点",
+    "translations": {
+      "en": {
+        "name": "Biological/function head",
+        "io": "Conditional representations → expression, phenotypes, events, or endpoints",
+        "kind_and_operations": "T/O; separate domain likelihoods; do not mix distinct endpoints"
+      }
+    }
   },
   {
     "id": "E07",
     "name": "条件生成头",
     "io": "噪声、条件、表示→候选样本",
-    "kind_and_operations": "T/O；流/扩散/条件生成，算法时钟独立"
+    "kind_and_operations": "T/O；流/扩散/条件生成，算法时钟独立",
+    "translations": {
+      "en": {
+        "name": "Conditional-generation head",
+        "io": "Noise, conditions, and representations → candidate samples",
+        "kind_and_operations": "T/O; flow/diffusion/conditional generation with an independent algorithmic clock"
+      }
+    }
   },
   {
     "id": "E08",
     "name": "读出与池化",
     "io": "节点/图/路径表示→任务摘要",
-    "kind_and_operations": "T/D；sum、mean、attention，按广延性选择"
+    "kind_and_operations": "T/D；sum、mean、attention，按广延性选择",
+    "translations": {
+      "en": {
+        "name": "Readout and pooling",
+        "io": "Node/graph/path representations → task summaries",
+        "kind_and_operations": "T/D; sum, mean, or attention selected according to extensivity"
+      }
+    }
   },
   {
     "id": "F01",
     "name": "误差证据提取",
     "io": "创新/约束/工具差异→分项误差信号",
-    "kind_and_operations": "D/T；单位、来源、可辨识性标签"
+    "kind_and_operations": "D/T；单位、来源、可辨识性标签",
+    "translations": {
+      "en": {
+        "name": "Error-evidence extraction",
+        "io": "Innovations/constraints/tool discrepancies → decomposed error signals",
+        "kind_and_operations": "D/T; units, provenance, and identifiability labels"
+      }
+    }
   },
   {
     "id": "F02",
     "name": "校准与域外检测",
     "io": "预测分布/验证集→校准参数与域外分数",
-    "kind_and_operations": "T/D；独立校准；无分布无方差承诺"
+    "kind_and_operations": "T/D；独立校准；无分布无方差承诺",
+    "translations": {
+      "en": {
+        "name": "Calibration and out-of-distribution detection",
+        "io": "Predictive distributions/validation set → calibration parameters and OOD scores",
+        "kind_and_operations": "T/D; independent calibration; no variance claim without a distribution"
+      }
+    }
   },
   {
     "id": "F03",
     "name": "收益与预算选择",
     "io": "误差、资源、候选操作→计算动作",
-    "kind_and_operations": "T/D；先固定规则，再离线收益拟合"
+    "kind_and_operations": "T/D；先固定规则，再离线收益拟合",
+    "translations": {
+      "en": {
+        "name": "Benefit and budget selection",
+        "io": "Errors, resources, and candidate operations → computational actions",
+        "kind_and_operations": "T/D; fixed rules first, then offline benefit fitting"
+      }
+    }
   },
   {
     "id": "F04",
     "name": "动态树路由与生长候选",
     "io": "计算动作→子图/专家/候选选择及结构变更方案",
-    "kind_and_operations": "D/T；三种树语义显式配置"
+    "kind_and_operations": "D/T；三种树语义显式配置",
+    "translations": {
+      "en": {
+        "name": "Dynamic-tree routing and growth candidates",
+        "io": "Computational actions → subgraph/expert/candidate selection and structural-change proposals",
+        "kind_and_operations": "D/T; explicitly configure the three tree semantics"
+      }
+    }
   },
   {
     "id": "F05",
     "name": "Prolong 状态展开",
     "io": "粗记忆及几何→细记忆",
-    "kind_and_operations": "T/D/O；父子映射、质量加权或学习映射"
+    "kind_and_operations": "T/D/O；父子映射、质量加权或学习映射",
+    "translations": {
+      "en": {
+        "name": "Prolongation of state",
+        "io": "Coarse memory and geometry → fine memory",
+        "kind_and_operations": "T/D/O; parent-child mapping, mass weighting, or learned mapping"
+      }
+    }
   },
   {
     "id": "F06",
     "name": "Restrict 状态汇聚",
     "io": "细记忆及几何→粗记忆",
-    "kind_and_operations": "T/D/O；与 F05 配对验证"
+    "kind_and_operations": "T/D/O；与 F05 配对验证",
+    "translations": {
+      "en": {
+        "name": "Restriction of state",
+        "io": "Fine memory and geometry → coarse memory",
+        "kind_and_operations": "T/D/O; paired validation with F05"
+      }
+    }
   },
   {
     "id": "F07",
     "name": "局部精化执行",
     "io": "子图及边界上下文→局部更新",
-    "kind_and_operations": "T/D/O；调用共享块或显式/隐式领域求解器"
+    "kind_and_operations": "T/D/O；调用共享块或显式/隐式领域求解器",
+    "translations": {
+      "en": {
+        "name": "Local refinement execution",
+        "io": "Subgraph and boundary context → local updates",
+        "kind_and_operations": "T/D/O; invoke shared blocks or explicit/implicit domain solvers"
+      }
+    }
   },
   {
     "id": "F08",
     "name": "候选状态版本",
     "io": "观测/假想状态→隔离快照",
-    "kind_and_operations": "D；candidate、parent、graph_version、clock"
+    "kind_and_operations": "D；candidate、parent、graph_version、clock",
+    "translations": {
+      "en": {
+        "name": "Candidate-state versioning",
+        "io": "Observed/imagined states → isolated snapshots",
+        "kind_and_operations": "D; candidate, parent, graph_version, and clock"
+      }
+    }
   },
   {
     "id": "G01",
     "name": "损失装配",
     "io": "带掩码标签/输出→分项训练损失",
-    "kind_and_operations": "D；量纲归一化、标签适用域"
+    "kind_and_operations": "D；量纲归一化、标签适用域",
+    "translations": {
+      "en": {
+        "name": "Loss assembly",
+        "io": "Masked labels/outputs → component training losses",
+        "kind_and_operations": "D; dimensional normalization and domains of label applicability"
+      }
+    }
   },
   {
     "id": "G02",
     "name": "数据采样与切分",
     "io": "数据目录→训练/验证/测试/校准批次",
-    "kind_and_operations": "D；主体/时间/家族分组、防泄漏"
+    "kind_and_operations": "D；主体/时间/家族分组、防泄漏",
+    "translations": {
+      "en": {
+        "name": "Data sampling and splitting",
+        "io": "Data catalog → training/validation/test/calibration batches",
+        "kind_and_operations": "D; grouping by subject/time/family to prevent leakage"
+      }
+    }
   },
   {
     "id": "G03",
     "name": "混合优化器",
     "io": "损失与参数类型→权重更新",
-    "kind_and_operations": "X；梯度优化；仅特定约束用投影/流形法"
+    "kind_and_operations": "X；梯度优化；仅特定约束用投影/流形法",
+    "translations": {
+      "en": {
+        "name": "Hybrid optimizer",
+        "io": "Losses and parameter types → weight updates",
+        "kind_and_operations": "X; gradient optimization; projection/manifold methods only for specified constraints"
+      }
+    }
   },
   {
     "id": "G04",
     "name": "JEPA 教师/预测器",
     "io": "上下文和目标视图→潜空间目标",
-    "kind_and_operations": "T/O；教师冻结或 EMA，目标 stop-gradient"
+    "kind_and_operations": "T/O；教师冻结或 EMA，目标 stop-gradient",
+    "translations": {
+      "en": {
+        "name": "JEPA teacher/predictor",
+        "io": "Context and target views → latent-space targets",
+        "kind_and_operations": "T/O; frozen or EMA teacher and stop-gradient targets"
+      }
+    }
   },
   {
     "id": "G05",
     "name": "回放与复盘",
     "io": "失败、阴性结果、历史任务→再训练数据",
-    "kind_and_operations": "X；真实记录与模型合成记录分开"
+    "kind_and_operations": "X；真实记录与模型合成记录分开",
+    "translations": {
+      "en": {
+        "name": "Replay and retrospective analysis",
+        "io": "Failures, negative results, and historical tasks → retraining data",
+        "kind_and_operations": "X; keep real records separate from model-generated records"
+      }
+    }
   },
   {
     "id": "G06",
     "name": "适配/蒸馏/合并",
     "io": "域 adapter 与参考任务→新检查点",
-    "kind_and_operations": "T/X；参数兼容检查、回归、负迁移评估"
+    "kind_and_operations": "T/X；参数兼容检查、回归、负迁移评估",
+    "translations": {
+      "en": {
+        "name": "Adaptation/distillation/merging",
+        "io": "Domain adapters and reference tasks → new checkpoints",
+        "kind_and_operations": "T/X; parameter-compatibility checks, regression tests, and negative-transfer evaluation"
+      }
+    }
   },
   {
     "id": "G07",
     "name": "独立评估",
     "io": "冻结配置与测试集→指标和置信区间",
-    "kind_and_operations": "X；消融、成本、校准与域外评估"
+    "kind_and_operations": "X；消融、成本、校准与域外评估",
+    "translations": {
+      "en": {
+        "name": "Independent evaluation",
+        "io": "Frozen configuration and test set → metrics and confidence intervals",
+        "kind_and_operations": "X; ablation, cost, calibration, and out-of-distribution evaluation"
+      }
+    }
   },
   {
     "id": "G08",
     "name": "主动实验选择",
     "io": "候选池与结果→下一批建议",
-    "kind_and_operations": "T/D/X；多保真、重复、测量成本，非自动授权"
+    "kind_and_operations": "T/D/X；多保真、重复、测量成本，非自动授权",
+    "translations": {
+      "en": {
+        "name": "Active experiment selection",
+        "io": "Candidate pool and outcomes → next-batch suggestions",
+        "kind_and_operations": "T/D/X; multiple fidelities, replicates, and measurement costs; not automatic authorization"
+      }
+    }
   },
   {
     "id": "H01",
     "name": "领域工具适配",
     "io": "请求→DFT/MD/仿真/外部模型结果",
-    "kind_and_operations": "X；版本、保真度、超时、误差语义"
+    "kind_and_operations": "X；版本、保真度、超时、误差语义",
+    "translations": {
+      "en": {
+        "name": "Domain-tool adaptation",
+        "io": "Requests → DFT/MD/simulation/external-model results",
+        "kind_and_operations": "X; versions, fidelity, timeouts, and error semantics"
+      }
+    }
   },
   {
     "id": "H02",
     "name": "ELN/LIMS/数据检索",
     "io": "身份与查询→记录或文献证据",
-    "kind_and_operations": "X；原始文件不可由隐记忆替代"
+    "kind_and_operations": "X；原始文件不可由隐记忆替代",
+    "translations": {
+      "en": {
+        "name": "ELN/LIMS/data retrieval",
+        "io": "Identity and query → records or literature evidence",
+        "kind_and_operations": "X; latent memory cannot replace original files"
+      }
+    }
   },
   {
     "id": "H03",
     "name": "硬预算管理",
     "io": "配置/计时→可用额度或中止",
-    "kind_and_operations": "D；保留检查、回退资源，不信任预测 WCET"
+    "kind_and_operations": "D；保留检查、回退资源，不信任预测 WCET",
+    "translations": {
+      "en": {
+        "name": "Hard-budget management",
+        "io": "Configuration/timing → available budget or termination",
+        "kind_and_operations": "D; reserve checking and fallback resources; do not trust predicted WCET"
+      }
+    }
   },
   {
     "id": "H04",
     "name": "领域输出检查",
     "io": "候选→通过/违反/未知及理由",
-    "kind_and_operations": "D/X；几何、单位、范围、测量有效期"
+    "kind_and_operations": "D/X；几何、单位、范围、测量有效期",
+    "translations": {
+      "en": {
+        "name": "Domain-output checks",
+        "io": "Candidates → pass/violation/unknown and reasons",
+        "kind_and_operations": "D/X; geometry, units, ranges, and measurement validity periods"
+      }
+    }
   },
   {
     "id": "H05",
     "name": "提交与回退",
     "io": "已检查候选→报告/动作及 ACK",
-    "kind_and_operations": "X；候选版本、动作前缀、重复请求处理"
+    "kind_and_operations": "X；候选版本、动作前缀、重复请求处理",
+    "translations": {
+      "en": {
+        "name": "Commit and rollback",
+        "io": "Checked candidates → reports/actions and ACK",
+        "kind_and_operations": "X; candidate versions, action prefixes, and duplicate-request handling"
+      }
+    }
   },
   {
     "id": "H06",
     "name": "设备与实验编排",
     "io": "已允许操作→设备状态/结果",
-    "kind_and_operations": "X；协议约束与外部反馈"
+    "kind_and_operations": "X；协议约束与外部反馈",
+    "translations": {
+      "en": {
+        "name": "Device and experiment orchestration",
+        "io": "Authorized operations → device states/results",
+        "kind_and_operations": "X; protocol constraints and external feedback"
+      }
+    }
   },
   {
     "id": "H07",
     "name": "编译与数值配置",
     "io": "算子图→执行计划",
-    "kind_and_operations": "X；精度、静态上限、稀疏布局、Aegis 映射"
+    "kind_and_operations": "X；精度、静态上限、稀疏布局、Aegis 映射",
+    "translations": {
+      "en": {
+        "name": "Compilation and numerical configuration",
+        "io": "Operator graph → execution plan",
+        "kind_and_operations": "X; precision, static bounds, sparse layouts, and Aegis mapping"
+      }
+    }
   },
   {
     "id": "H08",
     "name": "审计与监控",
     "io": "全流程事件→可回放证据链",
-    "kind_and_operations": "X；原始引用、权重、图、校准与错误版本"
+    "kind_and_operations": "X；原始引用、权重、图、校准与错误版本",
+    "translations": {
+      "en": {
+        "name": "Auditing and monitoring",
+        "io": "End-to-end events → replayable evidence chain",
+        "kind_and_operations": "X; original references and versions of weights, graphs, calibration, and errors"
+      }
+    }
   },
   {
     "id": "L01",
     "name": "稳定性合同与参考",
     "io": "任务/动力学/域→误差、假设和检查模式",
-    "kind_and_operations": "D；前向之前；无定义则标记不适用或未知"
+    "kind_and_operations": "D；前向之前；无定义则标记不适用或未知",
+    "translations": {
+      "en": {
+        "name": "Stability contract and reference",
+        "io": "Task/dynamics/domain → errors, assumptions, and checking mode",
+        "kind_and_operations": "D; before the forward pass; mark not applicable or unknown when undefined"
+      }
+    }
   },
   {
     "id": "L02",
     "name": "V/存储函数头",
     "io": "误差、图、域→V及适用时的梯度",
-    "kind_and_operations": "T/D；与预测头并列，独立版本"
+    "kind_and_operations": "T/D；与预测头并列，独立版本",
+    "translations": {
+      "en": {
+        "name": "V/storage-function head",
+        "io": "Errors, graph, and domain → V and its gradient when applicable",
+        "kind_and_operations": "T/D; parallel to prediction heads, with independent versioning"
+      }
+    }
   },
   {
     "id": "L03",
     "name": "漂移/下降评估",
     "io": "当前/候选状态、输入、V→条件残差",
-    "kind_and_operations": "D；时间更新、精化、切换分别检查"
+    "kind_and_operations": "D；时间更新、精化、切换分别检查",
+    "translations": {
+      "en": {
+        "name": "Drift/descent evaluation",
+        "io": "Current/candidate states, inputs, and V → conditional residuals",
+        "kind_and_operations": "D; check temporal updates, refinement, and switching separately"
+      }
+    }
   },
   {
     "id": "L04",
     "name": "扰动与供给预算",
     "io": "输入/误差边界→允许供给及鲁棒裕量",
-    "kind_and_operations": "D/T；估计值与已验证上界分开"
+    "kind_and_operations": "D/T；估计值与已验证上界分开",
+    "translations": {
+      "en": {
+        "name": "Disturbance and supply budgets",
+        "io": "Input/error bounds → permitted supply and robustness margins",
+        "kind_and_operations": "D/T; distinguish estimates from validated upper bounds"
+      }
+    }
   },
   {
     "id": "L05",
     "name": "状态/动作修正",
     "io": "候选、约束、预算→修正或不可行状态",
-    "kind_and_operations": "D/T；线搜索、受约束优化或已验证求解器"
+    "kind_and_operations": "D/T；线搜索、受约束优化或已验证求解器",
+    "translations": {
+      "en": {
+        "name": "State/action correction",
+        "io": "Candidates, constraints, and budget → correction or infeasibility status",
+        "kind_and_operations": "D/T; line search, constrained optimization, or validated solvers"
+      }
+    }
   },
   {
     "id": "L06",
     "name": "拓扑切换兼容",
     "io": "P/Q或模式重置→V可比性及切换结果",
-    "kind_and_operations": "D/T；图版本切换前；接 F05/F06/F08"
+    "kind_and_operations": "D/T；图版本切换前；接 F05/F06/F08",
+    "translations": {
+      "en": {
+        "name": "Topology-switch compatibility",
+        "io": "P/Q or mode resets → comparability of V and switching outcomes",
+        "kind_and_operations": "D/T; before graph-version switching; connects to F05/F06/F08"
+      }
+    }
   },
   {
     "id": "L07",
     "name": "稳定性训练与反例",
     "io": "数据/候选V→损失和反例样本",
-    "kind_and_operations": "T/X；接 G01/G03/G07，主要离线"
+    "kind_and_operations": "T/X；接 G01/G03/G07，主要离线",
+    "translations": {
+      "en": {
+        "name": "Stability training and counterexamples",
+        "io": "Data/candidate V → losses and counterexample samples",
+        "kind_and_operations": "T/X; connects to G01/G03/G07, mainly offline"
+      }
+    }
   },
   {
     "id": "L08",
     "name": "证据与失效处置",
     "io": "条件残差、证明/采样记录→状态与回退",
-    "kind_and_operations": "D/X；接 H03/H04/H05/H08"
+    "kind_and_operations": "D/X；接 H03/H04/H05/H08",
+    "translations": {
+      "en": {
+        "name": "Evidence and failure handling",
+        "io": "Conditional residuals and proof/sampling records → status and fallback",
+        "kind_and_operations": "D/X; connects to H03/H04/H05/H08"
+      }
+    }
   }
 ]

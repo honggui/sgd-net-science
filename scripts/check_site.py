@@ -7,6 +7,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
+PUBLIC = "https://honggui.github.io/sgd-net-science/"
 
 
 class Page(HTMLParser):
@@ -47,10 +48,17 @@ pages = {p.resolve(): Page(p.read_text(encoding="utf-8")) for p in SITE.rglob("*
 errors, checked = [], 0
 for path, page in pages.items():
     for link in page.links:
-        url = urlsplit(link)
-        if url.scheme or url.netloc or link.startswith("/") or not link:
-            continue
-        target = (path.parent / unquote(url.path)).resolve() if url.path else path
+        if link.startswith(PUBLIC):
+            url = urlsplit(link[len(PUBLIC):])
+            target = (SITE / unquote(url.path)).resolve()
+        elif link.startswith("/sgd-net-science/"):
+            url = urlsplit(link[len("/sgd-net-science/"):])
+            target = (SITE / unquote(url.path)).resolve()
+        else:
+            url = urlsplit(link)
+            if url.scheme or url.netloc or link.startswith("/") or not link:
+                continue
+            target = (path.parent / unquote(url.path)).resolve() if url.path else path
         if target.is_dir():
             target /= "index.html"
         checked += 1
@@ -59,9 +67,7 @@ for path, page in pages.items():
         elif url.fragment and target in pages and unquote(url.fragment) not in pages[target].ids:
             errors.append(f"{path.relative_to(SITE)}: missing anchor {link}")
 
-sources = list(ROOT.glob("*.md"))
-for directory in ("docs", "guide", "architecture"):
-    sources.extend((ROOT / directory).rglob("*.md"))
+sources = [p for language in ("zh", "en") for p in (ROOT / language).rglob("*.md")]
 for source in sources:
     relative = source.relative_to(ROOT)
     target = SITE / relative.parent / "index.html" if source.name == "README.md" else SITE / relative.with_suffix("") / "index.html"

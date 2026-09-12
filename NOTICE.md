@@ -1,13 +1,8 @@
-# 公开文档说明
+# Public documentation notice / 公开文档说明
 
-版本：2026-09-12 论文与架构公开研究版。
+- [Full English notice](en/NOTICE.md)
+- [完整中文说明](zh/NOTICE.md)
 
-这是模型研究文档发布，不附带新的开源或开放内容许可证，也不替权利人授予专利许可。项目若已有适用授权，应按其实际条款处理；本说明不撤销已有有效授权。
+This release does not grant a new open-source, open-content, or patent license. Existing valid authorizations remain subject to their actual terms. Third-party rights remain with their respective holders. Research proposals and design pseudocode do not imply implemented or validated capabilities, collaboration, or endorsement.
 
-第三方论文与产品名称仅用于引用和方法比较，其著作权、商标、代码与权重许可分别归属相应权利人。文中研究方案不表示已获外部机构认可、共同研究承诺或具有正式产品能力。
-
-不附模型代码、权重或数据；设计伪代码和模块名不能当作可安装软件包或已经通过测试的实现。
-
----
-
-[← 上一页](guide/rendering-check.md) · [全书目录](SUMMARY.md) · [下一页 →](GITBOOK_SETUP.md)
+本次发布不授予新的开源、开放内容或专利许可；已有有效授权继续按其实际条款处理。第三方权利属于各自权利人。研究方案与设计伪代码不表示已实现或验证的能力，也不表示合作或背书。

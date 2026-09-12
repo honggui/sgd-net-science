@@ -8,8 +8,13 @@ import subprocess
 root = Path(__file__).resolve().parents[1]
 manifest = root / "manifest.json"
 data = json.loads(manifest.read_text(encoding="utf-8"))
-data["edition"] = "gitbook-pages-20260912"
-data["reading_pages"] = len(re.findall(r"^\s*\* \[.+\]\(.+\)$", (root / "SUMMARY.md").read_text(encoding="utf-8"), re.M))
+data["edition"] = "bilingual-gitbook-pages-20260912"
+data["languages"] = ["zh", "en"]
+data["reading_pages_per_language"] = {
+    lang: len(re.findall(r"^\s*\* \[.+\]\(.+\)$", (root / lang / "SUMMARY.md").read_text(encoding="utf-8"), re.M))
+    for lang in data["languages"]
+}
+data["reading_pages"] = sum(data["reading_pages_per_language"].values())
 data["site_url"] = "https://honggui.github.io/sgd-net-science/"
 result = subprocess.run(["git", "ls-files", "--cached", "--others", "--exclude-standard", "-z"], cwd=root, capture_output=True, check=True)
 paths = sorted(set(result.stdout.decode("utf-8").strip("\0").split("\0")))

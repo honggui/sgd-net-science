@@ -1,0 +1,522 @@
+{
+  "source_language": "zh",
+  "target_language": "en",
+  "method": "AI-assisted complete translation with structural checks; not independent scientific peer review",
+  "pages": [
+    {
+      "path": "GITBOOK_SETUP.md",
+      "zh_sha256": "3c000c04124a5185e1243cfdfc08cdb949d3b986fcc6fc8857f5029a6a983a23",
+      "en_sha256": "17f91b791897e76760d056f86683ee308136094522a950ba051de29ad0d3d997"
+    },
+    {
+      "path": "NOTICE.md",
+      "zh_sha256": "5ac5164a3d94e4f22d55cc9ed11c8bb353d10222a15ef0e9a9e43ea1087c563e",
+      "en_sha256": "46ca00503119e78e2024487f911e683ec9cd6c826df4d1fffa45ec3ed1e4f56a"
+    },
+    {
+      "path": "README.md",
+      "zh_sha256": "fb539e994e1c981a13802da7ff6e1c1cdcc26751ab982de402d879affc20f6e7",
+      "en_sha256": "9c0a40ddb9d703b7fdfea0a0e50b5d320ea6f072a0b0851127f3731098ba94c6"
+    },
+    {
+      "path": "SUMMARY.md",
+      "zh_sha256": "47cc109a102dc1f0ff9c24daa8b92f8bebb47c8a74a28dda9d5b3bbfd0c0c075",
+      "en_sha256": "e6d0f72024665c16c4170a30dad79611489a7a31c8b49ef3669781d687eeeccb"
+    },
+    {
+      "path": "architecture/README.md",
+      "zh_sha256": "f849fc0dc7b47b0011d7183d14d4dcddc0db1b23f8a52c334ff48e58a5eda6d3",
+      "en_sha256": "f67457000e61032fa0fb5c0b0cde7e52f091adbb8201417c03ae7b9a85f9c58a"
+    },
+    {
+      "path": "docs/01.md",
+      "zh_sha256": "68edf20e71922ce0668d4f81ac20aeb8805c4cce46abd4eba25db3ee903ecf01",
+      "en_sha256": "050c9722fd02d72eb6b23c36720ae0d0b37a55ba2faf333002fb11e3c2f8b4e1"
+    },
+    {
+      "path": "docs/03.md",
+      "zh_sha256": "8db515cf58921880b73aef95f5e465fad5fbc91fd9d29d095fbeac3302cc332d",
+      "en_sha256": "595ef54612ec791a58705f8ae80259ba927699a8b40f207c50c29ca69db201a8"
+    },
+    {
+      "path": "docs/04.md",
+      "zh_sha256": "cec5bb5b51083f88a5c48b7b970c59ca50394dd51d3f4582fe679fa80905515b",
+      "en_sha256": "eef685563d3fba81dcf34d491ebc352a98c5c1d85536896a066159044e0904dc"
+    },
+    {
+      "path": "docs/05.md",
+      "zh_sha256": "c9b55e784af83d92cfec15ce8fa7fd59963b962f127b32f8d1be88a2218a2db0",
+      "en_sha256": "a3df54895aee672280239e528c0a53c9fd36d71c06d42c8969aba7fba12032ea"
+    },
+    {
+      "path": "docs/07.md",
+      "zh_sha256": "ac9c410ff43d90ea4d3156a8f6a3e83d04f2f2ed107458ed1e8aeb68357e384d",
+      "en_sha256": "658994d84fce807d08d580185a392f107afef8db6aa82800b4c7e411d0083fa4"
+    },
+    {
+      "path": "docs/08.md",
+      "zh_sha256": "474224aa5bb51addd74737c1c074a60248c510500cd8a7a724b698fddf0644a1",
+      "en_sha256": "55d2b81c8a4cfe7d471a2c6b3078b70228adeb6774a861270262a209c7ccf06a"
+    },
+    {
+      "path": "docs/13.md",
+      "zh_sha256": "62a15b4fb9dc0bd5870970488a40a49b718fee630ac2d53b9a27033dc353f65c",
+      "en_sha256": "20fa3adab92fab5d6c791a5b0975f09176732443cc0e753c0d16a5c252e9a120"
+    },
+    {
+      "path": "docs/14.md",
+      "zh_sha256": "9c69bbb93e3f5b87c17ae4a6b32642c7ddc9e2cd84ca6042c3ffc75f2ff19073",
+      "en_sha256": "fc9660f01fa8bcad8022834376f396485e9208b96846bc8209615dd6cc7bfdf6"
+    },
+    {
+      "path": "docs/15.md",
+      "zh_sha256": "546c294e8c683abd4693bf379d006c9292cccf1ed30145b6bb7d840abc15e964",
+      "en_sha256": "fc60e97649acc495af9a9440de267b8525935b93ac2e0574e78178e1276a13f6"
+    },
+    {
+      "path": "docs/17.md",
+      "zh_sha256": "dd9c1665bd05f13130265679ecfe15dc2d1b462fab105bd6911458b6a8f0f4e0",
+      "en_sha256": "c70cafe2989a2e62ce9f4cc402863e4fd942dd0231fd613ef7175ae20719f258"
+    },
+    {
+      "path": "docs/18.md",
+      "zh_sha256": "d812cf06f5b8b9e65f377be7170e26bab1300b57f29b9953fd2ddb32922e235e",
+      "en_sha256": "5dc8dfcefa30e2231b75cc90cf914993f3d643fbf51518a28439fb4c2bee04c7"
+    },
+    {
+      "path": "docs/24.md",
+      "zh_sha256": "0cefb115c6303b8af577384c48251057cb31818ced15c628bfd31257d0a9dc1f",
+      "en_sha256": "d8435bcc304ab637b1d9db98dd8087e085d175bfebbcd499abb0a0dd5fc0715d"
+    },
+    {
+      "path": "docs/25.md",
+      "zh_sha256": "def263dd11dcb20b504216a2914e24878f542376fa776a20221057891f7cac91",
+      "en_sha256": "6f906564f9408dcbcad7167c7e604ce921675ee855eb11ffbe9e239c2164b527"
+    },
+    {
+      "path": "docs/27.md",
+      "zh_sha256": "d161a68e5e8a2010940c0ac9bf0d9f0a2f8b1e8e7a32c1be4d66cc4db29271dd",
+      "en_sha256": "3ae45d5a03119cd4ff0458a4cbca7758199bade4d0aeeebb3a0f438db4ae425d"
+    },
+    {
+      "path": "docs/32.md",
+      "zh_sha256": "f898e4bc3df9b125b9a02b9118bf15dfcfaec0786e1cf13e3a3d19a3a949266d",
+      "en_sha256": "18031fd88d67b595e3c5aac1e2c7fa6c870e1a0807fb69408bf9ec6972bcbb78"
+    },
+    {
+      "path": "docs/33.md",
+      "zh_sha256": "56329e38d10cde9a36c222bac83b9b4e25a5ae3ffa2feb1e81224b737324ee46",
+      "en_sha256": "f2f96590e8055b7f5d686bc6b43e4d0d10b3c7154375f1ef8a4a4fb857f6aca4"
+    },
+    {
+      "path": "docs/34.md",
+      "zh_sha256": "2263000be4703e30a8afc43aaa28680d83eefff013cf0c656ca1381657a417c9",
+      "en_sha256": "7a8a071d9104ea3ce4d8df4498a834fb64194d2c3855a0f860c927405607a02f"
+    },
+    {
+      "path": "docs/35.md",
+      "zh_sha256": "b7f916092b200e353e85b0299779e17fd516d400277c475952733f438d746b14",
+      "en_sha256": "2e4868197ffb3de322a3276b8a0ea8c87995186d0003c55d49c87af87db45d8d"
+    },
+    {
+      "path": "docs/36.md",
+      "zh_sha256": "c094eb1535657c4c2cbbabadedca94edfa38db2220e5670e8f9cbc4566a2aa98",
+      "en_sha256": "645bbf25656a8c5ef8eee71d208f7660e58c3353580ad6a17f6f8885ea845470"
+    },
+    {
+      "path": "docs/37.md",
+      "zh_sha256": "3eb49509e3f73dd522e405be3697de825bf0d3117afd61c7be1379c16ddef1de",
+      "en_sha256": "14f2345b268e5e2c5e0340c4c6931a91e3e0e517ad00b85119a31a46c9bda86b"
+    },
+    {
+      "path": "docs/38.md",
+      "zh_sha256": "da44be84d647182a9f584bfeb0fe6d9073d4fcab4929d502dead1a85a35916e5",
+      "en_sha256": "6589c445a134e45d80a5106aca4d7cf0c127b715ffa5f10619e4fd5b7adfdb01"
+    },
+    {
+      "path": "docs/39.md",
+      "zh_sha256": "def32a320081397938172e1c12de8dcd0c41902045979651981acb623333c55a",
+      "en_sha256": "ac6adf24d48cfcf6e75209bea81235f9199ed98b33986f76f5ba16ce18d8c899"
+    },
+    {
+      "path": "docs/40.md",
+      "zh_sha256": "eff18e7028f35d4c417eb2bef1099e48d55ac349eebbc3423f0c8b23b077c799",
+      "en_sha256": "93208855dd2a000a6d975af137b2754ff531aaed00552a60e1fd3229f73f5312"
+    },
+    {
+      "path": "docs/41.md",
+      "zh_sha256": "90df78a55f0f80412a7f398f3d571227274ca8f5cec30e5d9afe89aaab9960f1",
+      "en_sha256": "93a2ac085e713ff90b3e9d49445da9c38f750144ca91c861c5055dd1355ccdcd"
+    },
+    {
+      "path": "docs/42.md",
+      "zh_sha256": "4f7e986e588562b0c4345de43b01b6b09a48d223711f12bab9d8438bd65b49c8",
+      "en_sha256": "8af65f521ade26bb553d7e2be1dca7e7709f39d1de7cd8e7fd003996ed4c8cec"
+    },
+    {
+      "path": "docs/43.md",
+      "zh_sha256": "5d1f9fad757af57ee5e554bb552c9dec90f0ba0992698ff909cc6fa8035b152e",
+      "en_sha256": "59d4014ed585ef6edceba86aa0a12a13764988c9a46d7686d06af47bad88264c"
+    },
+    {
+      "path": "docs/44.md",
+      "zh_sha256": "5e1bd376949346d069a720d08a20b0c88945e0f65bb5e12240b6c3e1bcd22e97",
+      "en_sha256": "c95cb6408a1357373fd8b141d20ddc4b1626bd09028e1a084cbc5eabc0281fad"
+    },
+    {
+      "path": "docs/45.md",
+      "zh_sha256": "c3e77831883ce99bfe14214ad40de1b82f50b0c3410814b71df46b484ed2ab11",
+      "en_sha256": "a09e75c653ab76f0fe0469505b71b2067652e388b03a7054cb627dd7b4dacc69"
+    },
+    {
+      "path": "docs/46.md",
+      "zh_sha256": "a7df85734f467463489e1c1fb637a5f1143cecb3e3a3e0838a69bc2b669dad22",
+      "en_sha256": "336bd6f4f2f978979bc4a82b159fb2e9e9cb4bc715649a4954b0235bf94d575b"
+    },
+    {
+      "path": "docs/47.md",
+      "zh_sha256": "1f2ff57e15b5e80d6b634c06bcec5a2ad4f4a6a64f1ec4508715ff58185a38d4",
+      "en_sha256": "0227d20ff5923e040d55408b657734326c6c6f80bc1a957f65a5aaf477b5bb6e"
+    },
+    {
+      "path": "docs/48.md",
+      "zh_sha256": "c23ca77f2e72bc19bb6da80f3ab07d88dd8e389dcd0f90dafb5a7be21db7d6f8",
+      "en_sha256": "169ef27983f1ddf7a249e7148d3df4a98f248c5c5c63f747719a41ec60970725"
+    },
+    {
+      "path": "docs/49.md",
+      "zh_sha256": "6da5737906d8d344eb34a47f6c7047ecf20e706cd462e1cdb67433805dc94668",
+      "en_sha256": "bb9a30a05ec504cfa79a129913d479c8a69014e3acf9d284dd83d272ae42fe1f"
+    },
+    {
+      "path": "docs/50.md",
+      "zh_sha256": "880323a4b73cf73f9715a4e8553f900eaba0b24c1385f8794c832829280777cd",
+      "en_sha256": "f787c9fc045292b25937565e4ce5754fa9f2d9a33645802ea945daf35d8de17d"
+    },
+    {
+      "path": "docs/chapters/13/section-01.md",
+      "zh_sha256": "754246476d167c47668b80ca8c678329f223cef1e5fe21566ab5769eb3f50fbf",
+      "en_sha256": "b6564f56609c58ea465088ce3a4aebffc46262680ce7449f08ffe9b376f05810"
+    },
+    {
+      "path": "docs/chapters/13/section-02.md",
+      "zh_sha256": "31c7f925ae12548ed154979b9b81ed961205e57b10337e54b126eeb1bc26035a",
+      "en_sha256": "684b137c5dc8d2d2c7658abdf5069944fd79739663851b49c030dcc0336f0173"
+    },
+    {
+      "path": "docs/chapters/13/section-03.md",
+      "zh_sha256": "8de6e7c82c1420c6c2702db005008ebf52bdcc8590ab54e83ca2f4777633fa5f",
+      "en_sha256": "86bd49359500312ee92e6995d1f8932d79b176cd48662ad85b46fdd81e7d2949"
+    },
+    {
+      "path": "docs/chapters/13/section-04.md",
+      "zh_sha256": "1dee8cc883dc2c600452aaa0a5d5ce554ea81ddb978aa472da62a82b5036f76a",
+      "en_sha256": "ffee8ad37a3431da8406a7b26825caee470f42b2476e96b5adb3971bd4c0df66"
+    },
+    {
+      "path": "docs/chapters/13/section-05.md",
+      "zh_sha256": "8a2f94c117980574df55fed3acc099ccbbf0a5b101283799a4da9df8bcc62e40",
+      "en_sha256": "909bd0efc28557d6ecf04f6a646c9012af043537cb72820258a7c5ba926fd38e"
+    },
+    {
+      "path": "docs/chapters/13/section-06.md",
+      "zh_sha256": "a9c23448ffd37d255b383c7415424a68dd86658f7707bbaccfdb50331c5113da",
+      "en_sha256": "742bfb0a582a540676062026c0d5c0a7dab35c55b392712ec9ba99d519fc5469"
+    },
+    {
+      "path": "docs/chapters/13/section-07.md",
+      "zh_sha256": "4ea31d72f9f04293b82ea46e26db679a92a6e7e6c41260c3958679da67183881",
+      "en_sha256": "b4e850212d61141b27a4a8f3ed9afa7a8a1a7e2a6de2e2cc3a2691d41ebcd689"
+    },
+    {
+      "path": "docs/chapters/13/section-08.md",
+      "zh_sha256": "bd280a72e577184a58e8b3c33dea212276924a599e1fa7119fc8e2fda3a2b331",
+      "en_sha256": "d3b13f78c9b66cb9f83fb72570a49329b2a28901ab04c70e814c8f256d3c300e"
+    },
+    {
+      "path": "docs/chapters/13/section-09.md",
+      "zh_sha256": "677e1ace7f518a9a8f3d903161ab023a290d1e92c01ef64791af90431a03e767",
+      "en_sha256": "39f2aeccde86012bc2de0999ef17caa8560587d8a35647c9ee592ad1a21aef8b"
+    },
+    {
+      "path": "docs/chapters/13/section-10.md",
+      "zh_sha256": "22eaa85f4ee82bfc5519ff72642d04cdfb3bd4c4321546e875a3717f776a3d39",
+      "en_sha256": "70d61050e140ca7dec064a6a8e26aa8a6e085be18efff0b7e152ce408d3be10f"
+    },
+    {
+      "path": "docs/chapters/13/section-11.md",
+      "zh_sha256": "97514acebcdeff91fdb1eda9d83381e3fa63d83f01c08bf4a5a0d23ae11775fb",
+      "en_sha256": "20b840c9d71cd5dde935341492dcbcb5bb5100300882c2837ad482686fda2b29"
+    },
+    {
+      "path": "docs/chapters/13/section-12.md",
+      "zh_sha256": "5f2a56dc563a21a5119cf3515be6cc65135b24a8bb1c4468d8e6f7c98c8fa20a",
+      "en_sha256": "02b7467306c9aeb197881d5ede5196e567b121061f99a155fb6626443087f7ca"
+    },
+    {
+      "path": "docs/chapters/13/section-13.md",
+      "zh_sha256": "a4bf058320fc75749e54ed6da919d31ddd06c8b10ada362708daae149f48faf6",
+      "en_sha256": "227e3da5e5da49d08566dce2ceb7df985d2836104e3aaa911d71ec00557d41d2"
+    },
+    {
+      "path": "docs/chapters/13/section-14.md",
+      "zh_sha256": "44a3272f38ec31ed6ccce4f8bd37f75c4ff8a3c077d59f42bcdf0746341f8a36",
+      "en_sha256": "68e7126bb197661f927f202cd6d2e2fac118fc001040241ec711f5ce62e16328"
+    },
+    {
+      "path": "docs/chapters/13/section-15.md",
+      "zh_sha256": "047ba015596273d372874ed1c386d47e4089244a0632607c157becdf226bef30",
+      "en_sha256": "486f3aa97063e93bee2b546ce13b1aecb3a76112c3e73bfab5a68856bdce0461"
+    },
+    {
+      "path": "docs/chapters/13/section-16.md",
+      "zh_sha256": "841392876fff763f961f40764096705fc5659c936a933cef908de7f85d87a757",
+      "en_sha256": "97f0151672841d587e1a66cf6baf52a9a55432f65a23d8ac3834cb6ae25d1378"
+    },
+    {
+      "path": "docs/chapters/13/section-17.md",
+      "zh_sha256": "467438837d69654047e3cfedf3652f1c203f5007d09a92f3c03d38c9c90a8521",
+      "en_sha256": "521c0223790bac5fa1c8d0cf67c2501cb830b9ab9b10036a1454183e6e613c17"
+    },
+    {
+      "path": "docs/chapters/13/section-18.md",
+      "zh_sha256": "610d19ba284b8a762dfd7bf35e8adcf9546b41eafc59ddef25c7ba68c4e24bda",
+      "en_sha256": "e9e7222dce070baf35170c4607435b4f60916f50c545df7fcd0e93004c69bb4b"
+    },
+    {
+      "path": "docs/chapters/13/section-19.md",
+      "zh_sha256": "8b06fa3c0d5fe577c991a87dcdddce11e420a939eb069700e54e26e5435adde7",
+      "en_sha256": "434b073f091a0557da46f3701c8f0e2c0e2fe206bc3e67a3e8dfbccd55f07e7f"
+    },
+    {
+      "path": "docs/chapters/13/section-20.md",
+      "zh_sha256": "30336feb723ba4fd6a97bfbf71f29faf61169eb1eed0aea29697266af2d61b10",
+      "en_sha256": "0a312100883bbcb813c29aa700bc5c863aef854af4ad6abd4999667bb2a4f09c"
+    },
+    {
+      "path": "docs/chapters/13/section-21.md",
+      "zh_sha256": "6a0b1d971b2b3dd85d9ef3578978855098ed7b6380885fd29c8ffb9fe4354441",
+      "en_sha256": "d739fb76b4cd6b9ca76719b939c1e4830e781c9e9b9c91cad3b3ae59d60f9822"
+    },
+    {
+      "path": "docs/chapters/13/section-22.md",
+      "zh_sha256": "38ccd842a67e89e5d056eb17d9156625434f2560229b88608b14fd3e2e850ef7",
+      "en_sha256": "16ed4f0356faab3a5d6c86f324a3c65bc581a1ddc81163cda06c2729db0f1410"
+    },
+    {
+      "path": "docs/chapters/13/section-23.md",
+      "zh_sha256": "bd40732c3ba1c6cb00cfed4551f253c1db0bbdb85ef9f9533e66f7238598ae76",
+      "en_sha256": "34c53719846cca7fd91e50c886863d7fa939aa7a10a6b8281d71da16bcdd015f"
+    },
+    {
+      "path": "docs/chapters/13/section-24.md",
+      "zh_sha256": "c2aa173362dabe278a90ff9bc0ff57b4c7974044cac5c25d54c2cbf02955086d",
+      "en_sha256": "8304783345695be325462be9d5109242c3c09da043a87f17c6f2b1fa3a9afe44"
+    },
+    {
+      "path": "docs/chapters/13/section-25.md",
+      "zh_sha256": "7d5833308ed659b44ec2960ae4cd91da36d44d763eee3fe64ce9a90549d3deb6",
+      "en_sha256": "da0bfed3de51db469ad685ce9eee6589e4f90bf8e22aba8748e8128d1a02e4cc"
+    },
+    {
+      "path": "docs/chapters/13/section-26.md",
+      "zh_sha256": "de50f384df530478b0bf6abfc4a54712bfef9ec62a09f1da750587c723868fa4",
+      "en_sha256": "e08b8bdc45a869d7a8e2d0111a6e56d665e54ffb1d8d174c780c7540224b8033"
+    },
+    {
+      "path": "docs/chapters/13/section-27.md",
+      "zh_sha256": "e2c9a139a374e4f4751bf2d9c2022ee32b449b6c5b889cdc4409a0c4d66d885c",
+      "en_sha256": "0e958c1301d376a763814b0950baa6491110409e7b882dcf033409a79f005a53"
+    },
+    {
+      "path": "docs/chapters/13/section-28.md",
+      "zh_sha256": "4132e37f5bb0452e6b385f1dab1ac3ef13ced29b60c7e37e55a71caa160ba216",
+      "en_sha256": "61cbaefa627f4ef0a10d30565596cf144844f77db187ab650ff844ce223fef45"
+    },
+    {
+      "path": "docs/chapters/13/section-29.md",
+      "zh_sha256": "297a0362506083773397e0b141950cd297aaf9deae25135ea0e9f35ae41a4c7d",
+      "en_sha256": "bb13caebb256e4592ca57516ba60418124806e066c64a2b912e34c1711167411"
+    },
+    {
+      "path": "docs/chapters/13/section-30.md",
+      "zh_sha256": "38e076704ab30ef3194f72d60c80b506d4494801593baaf29c4d130b7b020242",
+      "en_sha256": "5c5667fb4a0bd113f6af8acebf4bc8ade2a175b96846dbbcd87d3e01c1d550ab"
+    },
+    {
+      "path": "docs/chapters/36/section-01.md",
+      "zh_sha256": "c0a70838aa5a22d096e5acb952f600fc55b397a179ae190ba911adb29f5045b1",
+      "en_sha256": "14de20d0f01620e75f6df9e661fb38b1dd06b1d4f32f701a5f450dced515a3b3"
+    },
+    {
+      "path": "docs/chapters/36/section-02.md",
+      "zh_sha256": "1557652b782ab050a0b669703948bb2e23f4fa4b4c6ab2ef3ba6fccad3f71720",
+      "en_sha256": "684179edc96ca6bc567aa5e4391102ee29297d48f489fa3bac73d4109e2481c2"
+    },
+    {
+      "path": "docs/chapters/36/section-03.md",
+      "zh_sha256": "a827243b5a47a75d8485d8845ec92320f7db0f99e9779a2a7bde3fee1b67bd1c",
+      "en_sha256": "71789c21947160d4cb2f48700c8a5d70e3403c9a97e5b80c353fffa0503d63b0"
+    },
+    {
+      "path": "docs/chapters/36/section-04.md",
+      "zh_sha256": "61d49efe9b3ddc0b230a612d08770a5b368ca367bd435d6fd8210a6cb3f48007",
+      "en_sha256": "7e8a12507d4dd957cfad01da76b99ff2ee452fab7501a6470d02a2bb9fd027ac"
+    },
+    {
+      "path": "docs/chapters/36/section-05.md",
+      "zh_sha256": "1f64aa1217730345b5d2aef0aa133b8e35142b62e78b081b40255cf283697795",
+      "en_sha256": "b939b47e9dfb5017f46a1a08ac189808e9b562f47b4ea6dbea24fe7440bc76ac"
+    },
+    {
+      "path": "docs/chapters/36/section-06.md",
+      "zh_sha256": "dadccd4d1dab7a83a3dd93f351f193d3b7d76fdb6bf19972f03f9b6ae3a29325",
+      "en_sha256": "3ec200330b5dfebd8749d79ef0cbfc8c2809ea1eac5c794e2515c513a3daddff"
+    },
+    {
+      "path": "docs/chapters/36/section-07.md",
+      "zh_sha256": "0d7bc5e345e67e8e71f5deb8b29ef149a1b723ac4cf1f9be47cec954e6fad18b",
+      "en_sha256": "850bd8b263d888af195ccbbe1b34b8827cf7f9b6ded01af1bd33f0292ba0a7ce"
+    },
+    {
+      "path": "docs/chapters/36/section-08.md",
+      "zh_sha256": "54e0f407f0c98c621dc24e724f562aa11f4152069d4b3217233f5312d3b5045d",
+      "en_sha256": "6a2237f628cffa65fbc5723e7a8f778a74bc9f8465f0323293af2413718bb3e1"
+    },
+    {
+      "path": "docs/chapters/36/section-09.md",
+      "zh_sha256": "944507dceaa09bac7ad76d9ead0ab04aab40ecc991af6c77d4a60da311b1e6df",
+      "en_sha256": "06bc548897e64526032e9a33622f2c02c3894032cfbd4ce60cec8fc5ed83bf2e"
+    },
+    {
+      "path": "docs/chapters/36/section-10.md",
+      "zh_sha256": "46e383780cc76787db46477d706d397d2164e0803a9dafe7f957518f8d38e4e1",
+      "en_sha256": "46a4155a27f80eaca829dab8cd683d42ebbcc96ccab88f335898b649805020c4"
+    },
+    {
+      "path": "docs/chapters/36/section-11.md",
+      "zh_sha256": "fbf15ef9a1076399792bf0876f4df9f9163d365b1b06f955f9bbfbe3f6eaa56e",
+      "en_sha256": "2feb2b85fe0161bc163f4b013b824098b28adbc8a37f82d81e8f2fcf178a3b0a"
+    },
+    {
+      "path": "docs/chapters/36/section-12.md",
+      "zh_sha256": "f130de802a21db27678a03d714012c20856b5b62e01cc06e8e4058748a82869f",
+      "en_sha256": "78ce7c5ee59a26e437471aad6244d2e38921596e0f93718011d3baf184cb941e"
+    },
+    {
+      "path": "docs/chapters/36/section-13.md",
+      "zh_sha256": "5850d88e0e4017a41057d5577adaf55533460f0a6e0a385bcd952578b5ddac04",
+      "en_sha256": "ffa1088c3de02d8327d2faf6f881fb38f980560823914a2dcd2a54eba44d9bdb"
+    },
+    {
+      "path": "docs/chapters/36/section-14.md",
+      "zh_sha256": "e540b463fe2ed5cfc4f4fbc1f7eb77674fe13c47cab13e6194ec330d1ac50168",
+      "en_sha256": "5bdd486200354547805ed38b2e928a0c3f2bf25d0294f96d5ca60a16c369369c"
+    },
+    {
+      "path": "docs/chapters/36/section-15.md",
+      "zh_sha256": "1b08f5558431fe5c185e3a11468dbbeed88393cf51a15d2cbdf7872bf97404f3",
+      "en_sha256": "23dd37ad966820381a480ad496b983af885df1eb3681e696430a6d5575d384b4"
+    },
+    {
+      "path": "docs/chapters/36/section-16.md",
+      "zh_sha256": "c5ee717e2845b6aa8ff4e779d26a1a40e462a364dd12a74b40f2fadd247f765d",
+      "en_sha256": "8d2a3d33f7edb8d339eff9df6f7b543a3dc70ea8ea4e975fada282fa6f09c331"
+    },
+    {
+      "path": "docs/chapters/36/section-17.md",
+      "zh_sha256": "6301bd7708b526450afe611dfd6ec0fe8890abaa9fa2314986d992ea4c75fc90",
+      "en_sha256": "700ed6f1f63c77f3868548e58f83178c8fc734f8998c93e28faf37c1c830a359"
+    },
+    {
+      "path": "docs/chapters/36/section-18.md",
+      "zh_sha256": "931fe37f0ac06a3381968678c188c74b06d4de8912677122e67a8d262642fc07",
+      "en_sha256": "99ab00032dd9b473821417e9409f965f59124e0b56a7b3dd86e0e287aff79aec"
+    },
+    {
+      "path": "docs/chapters/36/section-19.md",
+      "zh_sha256": "62bd13d49680e8655fb9bfe841acbd5b826f5393594a2c777e629592f4aa819b",
+      "en_sha256": "c19bcfa6a13b0ead4e9170863fd63e2fd579dae875881427c6033232e9fd9b99"
+    },
+    {
+      "path": "docs/chapters/36/section-20.md",
+      "zh_sha256": "9efb135f489592c4fe615aab771b2ab706b76eb43b2f64c7f154d4d32086068c",
+      "en_sha256": "9196cc3e04069a0d7b33e51382fac9b7038efb1a586a0eb9923cfcd4f52d2989"
+    },
+    {
+      "path": "docs/chapters/36/section-21.md",
+      "zh_sha256": "96787ed3acb95c70be6a0abe552418ff63ff5f46e55f03e32f388fa845b1a513",
+      "en_sha256": "af14efed44b8d1a030349cfc55165cea361dfc1bc82e19a611e54e1302adb0d3"
+    },
+    {
+      "path": "docs/chapters/36/section-22.md",
+      "zh_sha256": "44900826cf506d8fe73017034d9710b83574b9e91887ec084ce8ce5f6a86cf30",
+      "en_sha256": "c0dfa6b897c5833384380fc2de7f14bfacd36c13a9383e1709f9991fe571b02e"
+    },
+    {
+      "path": "docs/chapters/36/section-23.md",
+      "zh_sha256": "fea1e08b1538de13ba384ab89baf88014a8e2705f96fa03446568dbad1f8f864",
+      "en_sha256": "5ccd2b8d980f7e0a2b30d3d0f1cd3eebe0ffdbe4c320e53f56594c1a408c92d9"
+    },
+    {
+      "path": "docs/chapters/36/section-24.md",
+      "zh_sha256": "aa298b1eee8dedb37d0ca0ea99bc7e7296e74b88c7511943144ffa8a86f51e1c",
+      "en_sha256": "c3f4ac8ea53a6d4ad4f9a6ff089cca311a7ca7e40b5c56313afb358f768c793e"
+    },
+    {
+      "path": "docs/chapters/36/section-25.md",
+      "zh_sha256": "e4df0b4c6dfa6bf482f726dadf7c93f959dbda6d928a513f73114245d66e9e09",
+      "en_sha256": "692d65c11a93cc48608b3759b44aa8adf6d1d4eef0c407fd461e9586c785ddf5"
+    },
+    {
+      "path": "docs/chapters/36/section-26.md",
+      "zh_sha256": "62493fade68a48779fabdf9e2c5c8385fffd0dcbd3bd45657bd66e472f18d3ff",
+      "en_sha256": "1796ec275c8e9380d5171101cc5493be996ec1ba35e734662a97386247eadf08"
+    },
+    {
+      "path": "docs/chapters/36/section-27.md",
+      "zh_sha256": "8d6912f6cf2587dbf31c0f7a50ea355b984ccb7178591cbddc053776382aec37",
+      "en_sha256": "9de83a834ff6f157b2735fc6c729e990dcd835fec038dd8fbf7e2fa152422126"
+    },
+    {
+      "path": "docs/chapters/36/section-28.md",
+      "zh_sha256": "10801cbce89ad5502a2bb4d462d6e74d4aefa27e3d95d6dd686697a84584505f",
+      "en_sha256": "334b83f333905ca8c7d7008618d5594a27ce7c3b8807af1a404374af29efbd3d"
+    },
+    {
+      "path": "docs/chapters/36/section-29.md",
+      "zh_sha256": "bb7eee06c89c9b2ccc9eaae9529952debe71effc5d41aa4a372357134dc53acc",
+      "en_sha256": "cc511905aaef3e5d10eb6ed3979f9e116d0030f70d5925300411b977c47ef560"
+    },
+    {
+      "path": "guide/bilingual.md",
+      "zh_sha256": "4eb90b54499295eb770dfb9dc3f103ed198c47aab1b53c0f0fb505715833d390",
+      "en_sha256": "44be61213d86859f56897a3a36fbb0e9d48aacc4a3a2716f1b98078b30bba6b7"
+    },
+    {
+      "path": "guide/glossary.md",
+      "zh_sha256": "9fdc49e6817e02d03fc59a9b0f96b8df0b1f76c50b40981e1b106639e1a75d37",
+      "en_sha256": "f6c031ec89e1e0f6c99d086c4c04a68ca7c32f5af48930fad36cd82183d58866"
+    },
+    {
+      "path": "guide/publishing.md",
+      "zh_sha256": "b7fb27144efd14b1aa5175a3fbaea0be016ffb45fcdabf7bd16c41a4a023a9f8",
+      "en_sha256": "0e4b4cbed673218c25885cebb141368d36cf908383c2e92c91a38597f366f1b8"
+    },
+    {
+      "path": "guide/rendering-check.md",
+      "zh_sha256": "6044e8c51612708d2f1cdf673de707dd6c94c3b01ee0e6db4d0ff5b99b106241",
+      "en_sha256": "202a8d5c084f95963fca1c8b04041411ace45ca0474375bf5b8b03f112644c59"
+    },
+    {
+      "path": "guide/start-here.md",
+      "zh_sha256": "23dc0283bffb8653cc1236b8cb66f992d7ba50283ec594e5f62121df886abfdd",
+      "en_sha256": "40ddfbef82ccda81e4d0d36e66dfd4fe190a90c894c369e5d6d922e107de6df2"
+    },
+    {
+      "path": "guide/status.md",
+      "zh_sha256": "616b191d5ef4f5f3a651680c32c26c41be21901976edfd12ddaa55539bfa1d08",
+      "en_sha256": "f333371f5ef6047e12ac7fa7fd7c2341d5a8af0142062e2c2294e630836ed055"
+    }
+  ]
+}

@@ -4,34 +4,64 @@
     "name": "任务空间合同",
     "parents": "A01/A02/A06、L01",
     "contract": "X/Y、测量算子、约束、正则性、范数、适定性与目标",
-    "status": "proposed_internal_interface"
+    "status": "proposed_internal_interface",
+    "translations": {
+      "en": {
+        "name": "Task-space contract",
+        "contract": "X/Y, measurement operators, constraints, regularity, norms, well-posedness, and objectives"
+      }
+    }
   },
   {
     "id": "FN02",
     "name": "采样和重构",
     "parents": "A07、B08、C04/C06、E08",
     "contract": "P_h/R_h、坐标、单元体积/求积权重、跨分辨率映射",
-    "status": "proposed_internal_interface"
+    "status": "proposed_internal_interface",
+    "translations": {
+      "en": {
+        "name": "Sampling and reconstruction",
+        "contract": "P_h/R_h, coordinates, cell volumes/quadrature weights, and cross-resolution mappings"
+      }
+    }
   },
   {
     "id": "FN03",
     "name": "算子/查询读出",
     "parents": "D02/D03、E01/E05/E08",
     "contract": "给定函数观测与查询位置输出场/轨迹；按任务加入局部或全局核",
-    "status": "proposed_internal_interface"
+    "status": "proposed_internal_interface",
+    "translations": {
+      "en": {
+        "name": "Operator/query readout",
+        "contract": "Output fields/trajectories from function observations and query locations; add local or global kernels as required by the task"
+      }
+    }
   },
   {
     "id": "FN04",
     "name": "残差质量与稳定因子",
     "parents": "F01/F02、L03/L04、IM04",
     "contract": "残差范数、经验/可靠级别、条件数或稳定常数的来源",
-    "status": "proposed_internal_interface"
+    "status": "proposed_internal_interface",
+    "translations": {
+      "en": {
+        "name": "Residual quality and stability factors",
+        "contract": "Residual norms, empirical/reliable status, and provenance of condition numbers or stability constants"
+      }
+    }
   },
   {
     "id": "FN05",
     "name": "误差—成本自适应",
     "parents": "F03—F07、EV02—EV08、G07",
     "contract": "将候选动作映射到预期误差下降/代价，验证后再接纳",
-    "status": "proposed_internal_interface"
+    "status": "proposed_internal_interface",
+    "translations": {
+      "en": {
+        "name": "Error–cost adaptation",
+        "contract": "Map candidate actions to expected error reduction/cost, and accept only after validation"
+      }
+    }
   }
 ]

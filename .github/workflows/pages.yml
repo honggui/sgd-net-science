@@ -23,6 +23,8 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-docs.txt
       - run: pip install -r requirements-docs.txt
+      - run: python scripts/test_checks.py
+      - run: python scripts/check_bilingual.py
       - run: python scripts/build_site.py
       - run: python scripts/check_site.py
       - uses: actions/configure-pages@v5

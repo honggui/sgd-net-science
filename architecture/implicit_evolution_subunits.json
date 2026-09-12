@@ -3,84 +3,168 @@
     "id": "IM01",
     "name": "方程装配",
     "parents": "F07、E01、H01",
-    "io": "模式、输入、冻结图/参数→R(z;u,θ,G)=0及维度"
+    "io": "模式、输入、冻结图/参数→R(z;u,θ,G)=0及维度",
+    "translations": {
+      "en": {
+        "name": "Equation assembly",
+        "io": "Mode, inputs, and frozen graph/parameters → R(z;u,θ,G)=0 and dimensions"
+      }
+    }
   },
   {
     "id": "IM02",
     "name": "初值和预条件",
     "parents": "F07、F08",
-    "io": "显式结果或合法历史快照→初值与预条件器"
+    "io": "显式结果或合法历史快照→初值与预条件器",
+    "translations": {
+      "en": {
+        "name": "Initialization and preconditioning",
+        "io": "Explicit results or valid historical snapshots → initial guess and preconditioner"
+      }
+    }
   },
   {
     "id": "IM03",
     "name": "有界前向求解",
     "parents": "F07、H01/H03",
-    "io": "残差算子→近似解、迭代数、残差及终止原因"
+    "io": "残差算子→近似解、迭代数、残差及终止原因",
+    "translations": {
+      "en": {
+        "name": "Bounded forward solve",
+        "io": "Residual operator → approximate solution, iteration count, residual, and termination reason"
+      }
+    }
   },
   {
     "id": "IM04",
     "name": "残差与条件诊断",
     "parents": "F01、L03/L08",
-    "io": "迭代轨迹→容差判定、数值状态与适用的误差界"
+    "io": "迭代轨迹→容差判定、数值状态与适用的误差界",
+    "translations": {
+      "en": {
+        "name": "Residual and conditioning diagnostics",
+        "io": "Iteration trajectory → tolerance assessment, numerical status, and applicable error bounds"
+      }
+    }
   },
   {
     "id": "IM05",
     "name": "梯度接口",
     "parents": "G01/G03",
-    "io": "近似根、损失梯度→隐式或展开梯度及其精度记录"
+    "io": "近似根、损失梯度→隐式或展开梯度及其精度记录",
+    "translations": {
+      "en": {
+        "name": "Gradient interface",
+        "io": "Approximate root and loss gradient → implicit or unrolled gradients and accuracy records"
+      }
+    }
   },
   {
     "id": "IM06",
     "name": "接受与失败路径",
     "parents": "F08、H04、L05/L08",
-    "io": "近似解/诊断→接受、退回显式基线或 unknown"
+    "io": "近似解/诊断→接受、退回显式基线或 unknown",
+    "translations": {
+      "en": {
+        "name": "Acceptance and failure paths",
+        "io": "Approximate solution/diagnostics → acceptance, return to explicit baseline, or unknown"
+      }
+    }
   },
   {
     "id": "EV01",
     "name": "预测快照与创新",
     "parents": "F01/F08、D05",
-    "io": "观测前预测＋后到结果→配对误差信号"
+    "io": "观测前预测＋后到结果→配对误差信号",
+    "translations": {
+      "en": {
+        "name": "Prediction snapshots and innovations",
+        "io": "Pre-observation prediction + later outcome → paired error signal"
+      }
+    }
   },
   {
     "id": "EV02",
     "name": "持续性/漂移诊断",
     "parents": "F01/F02",
-    "io": "多窗口误差与 QC→原因候选、置信与触发条件"
+    "io": "多窗口误差与 QC→原因候选、置信与触发条件",
+    "translations": {
+      "en": {
+        "name": "Persistence/drift diagnostics",
+        "io": "Multi-window errors and QC → candidate causes, confidence, and triggers"
+      }
+    }
   },
   {
     "id": "EV03",
     "name": "结构候选生成",
     "parents": "F03/F04",
-    "io": "原因与资源→分裂/增宽/加边/专家/不变等候选"
+    "io": "原因与资源→分裂/增宽/加边/专家/不变等候选",
+    "translations": {
+      "en": {
+        "name": "Structural candidate generation",
+        "io": "Causes and resources → split/widen/add-edge/expert/no-change candidates"
+      }
+    }
   },
   {
     "id": "EV04",
     "name": "参数和状态迁移",
     "parents": "F05/F06/F08、G06",
-    "io": "旧结构→候选新参数、记忆、掩码与优化器状态"
+    "io": "旧结构→候选新参数、记忆、掩码与优化器状态",
+    "translations": {
+      "en": {
+        "name": "Parameter and state migration",
+        "io": "Old structure → candidate parameters, memory, masks, and optimizer state"
+      }
+    }
   },
   {
     "id": "EV05",
     "name": "局部训练与竞争",
     "parents": "G01/G03/G05",
-    "io": "新结果与旧任务回放→父模型/候选性能比较"
+    "io": "新结果与旧任务回放→父模型/候选性能比较",
+    "translations": {
+      "en": {
+        "name": "Local training and competition",
+        "io": "New outcomes and old-task replay → parent/candidate performance comparison"
+      }
+    }
   },
   {
     "id": "EV06",
     "name": "稳定与等变审核",
     "parents": "C07/C08、L03/L06/L08、G07",
-    "io": "候选结构→结构、数值、对称性与任务证据"
+    "io": "候选结构→结构、数值、对称性与任务证据",
+    "translations": {
+      "en": {
+        "name": "Stability and equivariance review",
+        "io": "Candidate structure → structural, numerical, symmetry, and task evidence"
+      }
+    }
   },
   {
     "id": "EV07",
     "name": "持久接纳与监测",
     "parents": "G06、H04/H08",
-    "io": "通过预定门槛的候选→新版本与退化监测"
+    "io": "通过预定门槛的候选→新版本与退化监测",
+    "translations": {
+      "en": {
+        "name": "Persistent acceptance and monitoring",
+        "io": "Candidates passing predefined thresholds → new versions and degradation monitoring"
+      }
+    }
   },
   {
     "id": "EV08",
     "name": "修剪/合并/蒸馏",
     "parents": "F04、G05/G06",
-    "io": "长期使用和效果记录→压缩版本或撤销候选"
+    "io": "长期使用和效果记录→压缩版本或撤销候选",
+    "translations": {
+      "en": {
+        "name": "Pruning/merging/distillation",
+        "io": "Long-term usage and effect records → compressed versions or candidate withdrawal"
+      }
+    }
   }
 ]
