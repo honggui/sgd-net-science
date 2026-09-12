@@ -1,0 +1,553 @@
+{
+  "edition": "gitbook-20260912",
+  "project": "https://github.com/honggui/sgd-net-science",
+  "source_documents": 33,
+  "reading_pages": 100,
+  "split_chapter_pages": 59,
+  "top_components": 72,
+  "internal_interfaces": 27,
+  "domain_units": 56,
+  "status": "research_design_not_model_implementation",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "96a1e89cf7ac9a2753c27403dd891f3055c46862ce7c640aef3e6021da875e1a",
+      "bytes": 74
+    },
+    {
+      "path": ".gitbook.yaml",
+      "sha256": "8f449ea9886de4357193691e88ed8b92bd6aec464e1c78b0e9c29815c502f10f",
+      "bytes": 62
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c6497796e19619e756c6fe60b2cf8355e30890a3f48360435b9de538cafa905f",
+      "bytes": 74
+    },
+    {
+      "path": "architecture/component_registry.json",
+      "sha256": "333aa72ba8c4680799334e7981d6ae0af9eaf0b4eec2537e3c4c09fa5b50f91d",
+      "bytes": 13551
+    },
+    {
+      "path": "architecture/functional_space_interfaces.json",
+      "sha256": "d787e3aac149d0cb9dc385e7656249cb250ef588cda647ee782c762ea18726ca",
+      "bytes": 1211
+    },
+    {
+      "path": "architecture/generality_extensions.json",
+      "sha256": "f9f6900a8054105f6e69685b304e976c2be8890033e17df17096ea62ebc5db10",
+      "bytes": 2811
+    },
+    {
+      "path": "architecture/implicit_evolution_subunits.json",
+      "sha256": "ae6485f151fb079d3db4d87e3b4d772475c0eb3f39775f9604dae78d8ba02241",
+      "bytes": 2327
+    },
+    {
+      "path": "architecture/README.md",
+      "sha256": "d9d2f9686aecfc03ef246fb8efe3947e13b1064eab8e91c3cf0e1ea4f3050fde",
+      "bytes": 9364
+    },
+    {
+      "path": "docs/01-SGD-Net学术论文.md",
+      "sha256": "f51c1cba4c6a72205e6ae87c0a823717a5b871041297ea16cf55e9a662722655",
+      "bytes": 39601
+    },
+    {
+      "path": "docs/03-Python实现技术白皮书.md",
+      "sha256": "4c149d80912bfcff21da3967cc8e0fc35b879b921d7654c4ee239150bdfa8302",
+      "bytes": 18982
+    },
+    {
+      "path": "docs/04-Python实现概要设计.md",
+      "sha256": "d365fa91a138a982abb832db1cfffc72aae219d74ff568851f14f73436b895c4",
+      "bytes": 16491
+    },
+    {
+      "path": "docs/05-Python实现详细设计.md",
+      "sha256": "b2e836b604ef784e5649184a1a6e5ca3e5594ae78c29e39495d9f1e44390a3c5",
+      "bytes": 35582
+    },
+    {
+      "path": "docs/07-SGD-Net赋能科学大模型专题.md",
+      "sha256": "fc7ede994b441f3131152066b5323deb12999c3841ed6b1e4821ef6863955aa0",
+      "bytes": 17875
+    },
+    {
+      "path": "docs/08-SGD-Net多模态科研Agent与材料自动筛选方案.md",
+      "sha256": "cb7f4e99fcf8f405a027a246aeb5f4a8b8ec72594f4bee6297f648bb2c2d744f",
+      "bytes": 16706
+    },
+    {
+      "path": "docs/13-SGD-Net模型架构与层算子详解.md",
+      "sha256": "62a15b4fb9dc0bd5870970488a40a49b718fee630ac2d53b9a27033dc353f65c",
+      "bytes": 2706
+    },
+    {
+      "path": "docs/14-SGD-Net双闭环控制与类脑认知架构.md",
+      "sha256": "3cc3d4aff2628c334f4b699beab7409a7f20b88cf68e9fa897adb3dd0cbaf5d1",
+      "bytes": 27580
+    },
+    {
+      "path": "docs/15-SGD-Ecosystem物理具身数字孪生与双向流形折叠.md",
+      "sha256": "2f5f6b83040cb8e9c3787a9eb3728ac9b00499f0f6285c8c7195beca37d8c092",
+      "bytes": 18006
+    },
+    {
+      "path": "docs/17-SGD-Net反省复盘与动态自进化机制.md",
+      "sha256": "4b6353bcefdf3a5b04d43cb2fdd1d353903c55d569dfe36c9a4f056ae7cb2604",
+      "bytes": 29305
+    },
+    {
+      "path": "docs/18-SGD-Net与JEPA世界模型融合及JSBO桥梁算子.md",
+      "sha256": "45409889006609a63dc05cf5d695e9ad6db09aa6d759622aea1bbf976f4c9a08",
+      "bytes": 40313
+    },
+    {
+      "path": "docs/24-新Idea探讨_20260613_等变GNN与自进化架构.md",
+      "sha256": "6c5638cc7686bbfa65908e2277ada2db3b41187e97eaa5872d1e9d855d41df8e",
+      "bytes": 6333
+    },
+    {
+      "path": "docs/25-SGD-Harness物理守恒哨兵与等变自进化闭环.md",
+      "sha256": "f0b980ba72c731984453d1ef656337b7c139ded59dcda088d28b346c27422489",
+      "bytes": 19555
+    },
+    {
+      "path": "docs/27-SGD-Net混合求解训练体系与世界模型研究路线.md",
+      "sha256": "845ae45d381e90b02a4f02e7a4caa9e86453b1ee1e3691f46aa8137b4d5c7a9a",
+      "bytes": 33828
+    },
+    {
+      "path": "docs/32-SGD-Net研究融合评估与创新边界20260912.md",
+      "sha256": "012b8f561bbb99b30292b858144933a80896988f2b3e3f5bb02e1e831535feaf",
+      "bytes": 15481
+    },
+    {
+      "path": "docs/33-SGD-Net-TC拓扑接触世界模型架构提案20260912.md",
+      "sha256": "5ac763999170ef0d828aecfd5531662e223a4b3f1c8ec1271c3819c6b1133681",
+      "bytes": 18032
+    },
+    {
+      "path": "docs/34-SGD-Net-TC验证方案与软硬件映射20260912.md",
+      "sha256": "abe6b0e274a4e2bfab80e35e5c08b16a4ea9e2d691a7bad9117a30794aadd887",
+      "bytes": 15227
+    },
+    {
+      "path": "docs/35-SGD-Net跨领域扩展路线与科研任务映射20260912.md",
+      "sha256": "e1a9b378132be12b3429639e8879177668d8b10c90965638af363de205e23ca5",
+      "bytes": 23973
+    },
+    {
+      "path": "docs/36-SGD-Net统一基础模型架构与组件单元全集20260912.md",
+      "sha256": "153664a2abda4d859116febfe3fa3049201eb666cb7e5f0f3e4db884cb843fdf",
+      "bytes": 3143
+    },
+    {
+      "path": "docs/37-SGD-Net世界模型构建详解20260912.md",
+      "sha256": "9d0dc0d617d71f8ecd503aa69c5a4f15fa4d7520f04c7a34ae313aec8eb66bba",
+      "bytes": 8727
+    },
+    {
+      "path": "docs/38-SGD-Net物理AI与灵巧手模型构建详解20260912.md",
+      "sha256": "65f4556c353d46334f94fcfd6882cd43689fd6756f48efeaf7f0aa572b24e1fc",
+      "bytes": 7563
+    },
+    {
+      "path": "docs/39-SGD-Net制药与分子模型构建详解20260912.md",
+      "sha256": "aa688d7e2338b387c4619b42436ed8b8364cae9fccac0edbb61156020d0a656a",
+      "bytes": 8399
+    },
+    {
+      "path": "docs/40-SGD-Net生物与细胞模型构建详解20260912.md",
+      "sha256": "bdfe7f455ac9e429d07f0740be1c6d25f0ee16b8fccdb51a01fc30e8b021e9aa",
+      "bytes": 7957
+    },
+    {
+      "path": "docs/41-SGD-Net材料模型构建详解20260912.md",
+      "sha256": "3b88312988bf60fbfd75e7ee024c413029af9b66332e3140a4d85351888ca214",
+      "bytes": 7831
+    },
+    {
+      "path": "docs/42-SGD-Net神经行为模型构建详解20260912.md",
+      "sha256": "4250ab574b71c2184488624f632064a310b3dc4bd64da278ae6ac3ba5e00905f",
+      "bytes": 7601
+    },
+    {
+      "path": "docs/43-SGD-Net信号突触模型构建详解20260912.md",
+      "sha256": "eea4ca900e743f6be2401d5e80e17be7efbc788523aff9744bb241b863de1911",
+      "bytes": 8890
+    },
+    {
+      "path": "docs/44-SGD-Net李亚普洛夫稳定性组件与领域适用条件20260912.md",
+      "sha256": "41d1b854d782b89c5474ffccdd22420b61a8355e7a382c1cfbc997d1f08f0c38",
+      "bytes": 11519
+    },
+    {
+      "path": "docs/45-SGD-Net隐式求解组件与训练推理路径20260912.md",
+      "sha256": "caf10a3b2a1d4cbc347d1dd08c950ec2473206e277fca0df0dc943d9766a496b",
+      "bytes": 7532
+    },
+    {
+      "path": "docs/46-SGD-Net先验后验驱动的动态生长与持续演化20260912.md",
+      "sha256": "05cd2f6261c75288b3fc9878c14fae98047e6cf68110f9eeecfa60dd1a1bf0a8",
+      "bytes": 10827
+    },
+    {
+      "path": "docs/47-SGD-Net通用性审查与可构造模型覆盖方案20260912.md",
+      "sha256": "998e0c969f0dac9cb1628f916b88b400e641c708453e32e0d666e6ca769f14f4",
+      "bytes": 16324
+    },
+    {
+      "path": "docs/48-SGD-Net函数空间算子逼近与约束解空间评估20260912.md",
+      "sha256": "3192c6b912cd64dbc03d70295a1acf821c73ad9b7022b42244c7baac4898dc37",
+      "bytes": 16180
+    },
+    {
+      "path": "docs/49-SGD-Net能力优先路线与数学评估任务卡20260912.md",
+      "sha256": "a0da1e19d16e92f2aede25b8a3bbf03d7a662330971af34b17bd5b1a6fb95da5",
+      "bytes": 7204
+    },
+    {
+      "path": "docs/50-SGD-Net反思回顾复盘的基础与闭环完善20260912.md",
+      "sha256": "46e6e6d58e293b2146e4f1ede7cab9dd2f0db923056d5fa485d8a6bcb40c3c61",
+      "bytes": 8544
+    },
+    {
+      "path": "docs/chapters/13/section-01.md",
+      "sha256": "0dabc49bb7a1f7ea3548f4d4a1d7fb98d2ed635353aec0e8ccdb717bc003c1ee",
+      "bytes": 3510
+    },
+    {
+      "path": "docs/chapters/13/section-02.md",
+      "sha256": "31c7f925ae12548ed154979b9b81ed961205e57b10337e54b126eeb1bc26035a",
+      "bytes": 1558
+    },
+    {
+      "path": "docs/chapters/13/section-03.md",
+      "sha256": "8de6e7c82c1420c6c2702db005008ebf52bdcc8590ab54e83ca2f4777633fa5f",
+      "bytes": 1429
+    },
+    {
+      "path": "docs/chapters/13/section-04.md",
+      "sha256": "1dee8cc883dc2c600452aaa0a5d5ce554ea81ddb978aa472da62a82b5036f76a",
+      "bytes": 1258
+    },
+    {
+      "path": "docs/chapters/13/section-05.md",
+      "sha256": "8a2f94c117980574df55fed3acc099ccbbf0a5b101283799a4da9df8bcc62e40",
+      "bytes": 1338
+    },
+    {
+      "path": "docs/chapters/13/section-06.md",
+      "sha256": "a9c23448ffd37d255b383c7415424a68dd86658f7707bbaccfdb50331c5113da",
+      "bytes": 1656
+    },
+    {
+      "path": "docs/chapters/13/section-07.md",
+      "sha256": "4ea31d72f9f04293b82ea46e26db679a92a6e7e6c41260c3958679da67183881",
+      "bytes": 986
+    },
+    {
+      "path": "docs/chapters/13/section-08.md",
+      "sha256": "bd280a72e577184a58e8b3c33dea212276924a599e1fa7119fc8e2fda3a2b331",
+      "bytes": 3490
+    },
+    {
+      "path": "docs/chapters/13/section-09.md",
+      "sha256": "677e1ace7f518a9a8f3d903161ab023a290d1e92c01ef64791af90431a03e767",
+      "bytes": 2168
+    },
+    {
+      "path": "docs/chapters/13/section-10.md",
+      "sha256": "22eaa85f4ee82bfc5519ff72642d04cdfb3bd4c4321546e875a3717f776a3d39",
+      "bytes": 2627
+    },
+    {
+      "path": "docs/chapters/13/section-11.md",
+      "sha256": "97514acebcdeff91fdb1eda9d83381e3fa63d83f01c08bf4a5a0d23ae11775fb",
+      "bytes": 3105
+    },
+    {
+      "path": "docs/chapters/13/section-12.md",
+      "sha256": "5f2a56dc563a21a5119cf3515be6cc65135b24a8bb1c4468d8e6f7c98c8fa20a",
+      "bytes": 4965
+    },
+    {
+      "path": "docs/chapters/13/section-13.md",
+      "sha256": "a4bf058320fc75749e54ed6da919d31ddd06c8b10ada362708daae149f48faf6",
+      "bytes": 5241
+    },
+    {
+      "path": "docs/chapters/13/section-14.md",
+      "sha256": "44a3272f38ec31ed6ccce4f8bd37f75c4ff8a3c077d59f42bcdf0746341f8a36",
+      "bytes": 2024
+    },
+    {
+      "path": "docs/chapters/13/section-15.md",
+      "sha256": "047ba015596273d372874ed1c386d47e4089244a0632607c157becdf226bef30",
+      "bytes": 2292
+    },
+    {
+      "path": "docs/chapters/13/section-16.md",
+      "sha256": "841392876fff763f961f40764096705fc5659c936a933cef908de7f85d87a757",
+      "bytes": 1104
+    },
+    {
+      "path": "docs/chapters/13/section-17.md",
+      "sha256": "467438837d69654047e3cfedf3652f1c203f5007d09a92f3c03d38c9c90a8521",
+      "bytes": 794
+    },
+    {
+      "path": "docs/chapters/13/section-18.md",
+      "sha256": "610d19ba284b8a762dfd7bf35e8adcf9546b41eafc59ddef25c7ba68c4e24bda",
+      "bytes": 1257
+    },
+    {
+      "path": "docs/chapters/13/section-19.md",
+      "sha256": "8b06fa3c0d5fe577c991a87dcdddce11e420a939eb069700e54e26e5435adde7",
+      "bytes": 1544
+    },
+    {
+      "path": "docs/chapters/13/section-20.md",
+      "sha256": "30336feb723ba4fd6a97bfbf71f29faf61169eb1eed0aea29697266af2d61b10",
+      "bytes": 43139
+    },
+    {
+      "path": "docs/chapters/13/section-21.md",
+      "sha256": "6a0b1d971b2b3dd85d9ef3578978855098ed7b6380885fd29c8ffb9fe4354441",
+      "bytes": 1039
+    },
+    {
+      "path": "docs/chapters/13/section-22.md",
+      "sha256": "38ccd842a67e89e5d056eb17d9156625434f2560229b88608b14fd3e2e850ef7",
+      "bytes": 404
+    },
+    {
+      "path": "docs/chapters/13/section-23.md",
+      "sha256": "bd40732c3ba1c6cb00cfed4551f253c1db0bbdb85ef9f9533e66f7238598ae76",
+      "bytes": 4938
+    },
+    {
+      "path": "docs/chapters/13/section-24.md",
+      "sha256": "c2aa173362dabe278a90ff9bc0ff57b4c7974044cac5c25d54c2cbf02955086d",
+      "bytes": 1045
+    },
+    {
+      "path": "docs/chapters/13/section-25.md",
+      "sha256": "7d5833308ed659b44ec2960ae4cd91da36d44d763eee3fe64ce9a90549d3deb6",
+      "bytes": 3152
+    },
+    {
+      "path": "docs/chapters/13/section-26.md",
+      "sha256": "de50f384df530478b0bf6abfc4a54712bfef9ec62a09f1da750587c723868fa4",
+      "bytes": 1824
+    },
+    {
+      "path": "docs/chapters/13/section-27.md",
+      "sha256": "e2c9a139a374e4f4751bf2d9c2022ee32b449b6c5b889cdc4409a0c4d66d885c",
+      "bytes": 1179
+    },
+    {
+      "path": "docs/chapters/13/section-28.md",
+      "sha256": "4132e37f5bb0452e6b385f1dab1ac3ef13ced29b60c7e37e55a71caa160ba216",
+      "bytes": 582
+    },
+    {
+      "path": "docs/chapters/13/section-29.md",
+      "sha256": "297a0362506083773397e0b141950cd297aaf9deae25135ea0e9f35ae41a4c7d",
+      "bytes": 1880
+    },
+    {
+      "path": "docs/chapters/13/section-30.md",
+      "sha256": "1ef97794b8d8554195f3d3a255efc00d100589e9ed92b1e96d0dd9d432686ac3",
+      "bytes": 2274
+    },
+    {
+      "path": "docs/chapters/36/section-01.md",
+      "sha256": "d528481e917344fcc265b08d41034a04f919f4c9b2c8d546e4e16007918695ab",
+      "bytes": 1453
+    },
+    {
+      "path": "docs/chapters/36/section-02.md",
+      "sha256": "517357b8415d58e0bba90c8988e5cd4ca055c388d08b714d144de3f3e13a7cbb",
+      "bytes": 1987
+    },
+    {
+      "path": "docs/chapters/36/section-03.md",
+      "sha256": "ad9bd52bf05bfcdec03faf435311b6f809445b2a2a0445e672ddeb73e97b8af7",
+      "bytes": 1229
+    },
+    {
+      "path": "docs/chapters/36/section-04.md",
+      "sha256": "61d49efe9b3ddc0b230a612d08770a5b368ca367bd435d6fd8210a6cb3f48007",
+      "bytes": 1116
+    },
+    {
+      "path": "docs/chapters/36/section-05.md",
+      "sha256": "12eef86cb8f5e9d9c05726e1d2457a50161d39566a1b089cbef2b32cb162d769",
+      "bytes": 11405
+    },
+    {
+      "path": "docs/chapters/36/section-06.md",
+      "sha256": "dadccd4d1dab7a83a3dd93f351f193d3b7d76fdb6bf19972f03f9b6ae3a29325",
+      "bytes": 3556
+    },
+    {
+      "path": "docs/chapters/36/section-07.md",
+      "sha256": "0d7bc5e345e67e8e71f5deb8b29ef149a1b723ac4cf1f9be47cec954e6fad18b",
+      "bytes": 5356
+    },
+    {
+      "path": "docs/chapters/36/section-08.md",
+      "sha256": "54e0f407f0c98c621dc24e724f562aa11f4152069d4b3217233f5312d3b5045d",
+      "bytes": 3933
+    },
+    {
+      "path": "docs/chapters/36/section-09.md",
+      "sha256": "944507dceaa09bac7ad76d9ead0ab04aab40ecc991af6c77d4a60da311b1e6df",
+      "bytes": 922
+    },
+    {
+      "path": "docs/chapters/36/section-10.md",
+      "sha256": "46e383780cc76787db46477d706d397d2164e0803a9dafe7f957518f8d38e4e1",
+      "bytes": 743
+    },
+    {
+      "path": "docs/chapters/36/section-11.md",
+      "sha256": "43adcb6910dd4b245b064b8cc93be850671d68bfb5596aafbabed6374223b2ea",
+      "bytes": 540
+    },
+    {
+      "path": "docs/chapters/36/section-12.md",
+      "sha256": "8ea4126def02a7e61bbd7edc34d6f1a03eab4b3cfdbb9c4672f207913be1e29a",
+      "bytes": 1717
+    },
+    {
+      "path": "docs/chapters/36/section-13.md",
+      "sha256": "a6704864abb4eacbd770427e3a04f2000a91429bae4ffd9924de8da0dae7938b",
+      "bytes": 1120
+    },
+    {
+      "path": "docs/chapters/36/section-14.md",
+      "sha256": "933509509e3fa9aeb1da23bba42c4408186915cb633325cbb59e64b4381441b4",
+      "bytes": 1399
+    },
+    {
+      "path": "docs/chapters/36/section-15.md",
+      "sha256": "a650a93ba6aee104d7b2eb9cfe74737cd6eb8c6564e7f65737951d76ed1424e3",
+      "bytes": 631
+    },
+    {
+      "path": "docs/chapters/36/section-16.md",
+      "sha256": "c5ee717e2845b6aa8ff4e779d26a1a40e462a364dd12a74b40f2fadd247f765d",
+      "bytes": 3170
+    },
+    {
+      "path": "docs/chapters/36/section-17.md",
+      "sha256": "6301bd7708b526450afe611dfd6ec0fe8890abaa9fa2314986d992ea4c75fc90",
+      "bytes": 5666
+    },
+    {
+      "path": "docs/chapters/36/section-18.md",
+      "sha256": "931fe37f0ac06a3381968678c188c74b06d4de8912677122e67a8d262642fc07",
+      "bytes": 5309
+    },
+    {
+      "path": "docs/chapters/36/section-19.md",
+      "sha256": "62bd13d49680e8655fb9bfe841acbd5b826f5393594a2c777e629592f4aa819b",
+      "bytes": 5032
+    },
+    {
+      "path": "docs/chapters/36/section-20.md",
+      "sha256": "9efb135f489592c4fe615aab771b2ab706b76eb43b2f64c7f154d4d32086068c",
+      "bytes": 5926
+    },
+    {
+      "path": "docs/chapters/36/section-21.md",
+      "sha256": "96787ed3acb95c70be6a0abe552418ff63ff5f46e55f03e32f388fa845b1a513",
+      "bytes": 5853
+    },
+    {
+      "path": "docs/chapters/36/section-22.md",
+      "sha256": "44900826cf506d8fe73017034d9710b83574b9e91887ec084ce8ce5f6a86cf30",
+      "bytes": 5413
+    },
+    {
+      "path": "docs/chapters/36/section-23.md",
+      "sha256": "fea1e08b1538de13ba384ab89baf88014a8e2705f96fa03446568dbad1f8f864",
+      "bytes": 5531
+    },
+    {
+      "path": "docs/chapters/36/section-24.md",
+      "sha256": "aa298b1eee8dedb37d0ca0ea99bc7e7296e74b88c7511943144ffa8a86f51e1c",
+      "bytes": 5363
+    },
+    {
+      "path": "docs/chapters/36/section-25.md",
+      "sha256": "e4df0b4c6dfa6bf482f726dadf7c93f959dbda6d928a513f73114245d66e9e09",
+      "bytes": 5044
+    },
+    {
+      "path": "docs/chapters/36/section-26.md",
+      "sha256": "62493fade68a48779fabdf9e2c5c8385fffd0dcbd3bd45657bd66e472f18d3ff",
+      "bytes": 9423
+    },
+    {
+      "path": "docs/chapters/36/section-27.md",
+      "sha256": "0896fd87ed60386600d6763aeb83f276ffaa54984ade10538c2a18f10df6dfab",
+      "bytes": 6552
+    },
+    {
+      "path": "docs/chapters/36/section-28.md",
+      "sha256": "10801cbce89ad5502a2bb4d462d6e74d4aefa27e3d95d6dd686697a84584505f",
+      "bytes": 3794
+    },
+    {
+      "path": "docs/chapters/36/section-29.md",
+      "sha256": "3fc609ae49d2e1182b002a7d057e6a2b1f958dd77dc8bf1e84ee75dda3b93786",
+      "bytes": 3120
+    },
+    {
+      "path": "GITBOOK_SETUP.md",
+      "sha256": "c5c04e01a0f177617a9982f68b2c192c4c9d612d17bd4ba9f90a69a913693ff0",
+      "bytes": 3609
+    },
+    {
+      "path": "guide/glossary.md",
+      "sha256": "9fdc49e6817e02d03fc59a9b0f96b8df0b1f76c50b40981e1b106639e1a75d37",
+      "bytes": 1317
+    },
+    {
+      "path": "guide/rendering-check.md",
+      "sha256": "d6df1b0d932485ae94b36284a1701abe6bb93914f581b137ad3aa2ce5ae5b375",
+      "bytes": 1262
+    },
+    {
+      "path": "guide/start-here.md",
+      "sha256": "05ef5483e862c16d05021119baac83f50354e6bdeb183d919f3268c0cb0385ad",
+      "bytes": 3189
+    },
+    {
+      "path": "guide/status.md",
+      "sha256": "0b4244db4272dc162500348271a98d0c99fc7861b1b8d5c002ed6b2efae065ea",
+      "bytes": 1018
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "5ac5164a3d94e4f22d55cc9ed11c8bb353d10222a15ef0e9a9e43ea1087c563e",
+      "bytes": 785
+    },
+    {
+      "path": "README.md",
+      "sha256": "765e5e3d6e74cf00fd05a82520f6b4ee608255070754be5b1f1f8774543f0b14",
+      "bytes": 2888
+    },
+    {
+      "path": "SUMMARY.md",
+      "sha256": "c8493da14a3eb58febb9dd177dab59e8779d0c189a071e572764224fc1f54826",
+      "bytes": 7967
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "U01",
+    "name": "有类型的计算图",
+    "parents": "C01/C08、F04、H07",
+    "requirement": "区分数据图与算子图；Tensor/State/Control 边，shape/dtype、参数共享、分支/循环语义",
+    "first_check": "把小 MLP 原权重逐算子装配后比较输出",
+    "priority": "optional_compatibility_engineering",
+    "implemented": false
+  },
+  {
+    "id": "U02",
+    "name": "全局关系与顺序",
+    "parents": "B02/B07、D02/D03、E08",
+    "requirement": "多头 QKV、逐行 softmax、因果/交叉掩码、位置编码、全局或稀疏连接",
+    "first_check": "Transformer 块与顺序敏感任务",
+    "priority": "task_triggered",
+    "implemented": false
+  },
+  {
+    "id": "U03",
+    "name": "可寻址工作记忆",
+    "parents": "D04、F08、H02/H07",
+    "requirement": "精确地址读写、内容检索、KV cache、栈/序列缓冲、生命周期与可扩容策略",
+    "first_check": "延迟复制、索引查询、长序列回读",
+    "priority": "task_triggered",
+    "implemented": false
+  },
+  {
+    "id": "U04",
+    "name": "稠密与离散原语库",
+    "parents": "B、D06、F04、H07",
+    "requirement": "目标模型所需激活、卷积、归一化、比较/选择、门控、张量重排",
+    "first_check": "CNN、LSTM、硬树逐层语义对照",
+    "priority": "optional_compatibility_engineering",
+    "implemented": false
+  },
+  {
+    "id": "U05",
+    "name": "高阶与表示策略",
+    "parents": "C01/C05/C07、D02/D07/D08",
+    "requirement": "点/边对/子图/超边的状态选择；标量/向量/张量及群作用",
+    "first_check": "受限 GNN 反例、手性与张量输出测试",
+    "priority": "task_triggered",
+    "implemented": false
+  },
+  {
+    "id": "U06",
+    "name": "概率生成与目标库",
+    "parents": "E02/E07、G01/G03",
+    "requirement": "自回归分布、噪声调度、采样、变分/对抗/价值与策略目标的专用配置",
+    "first_check": "小扩散、概率回归及策略目标复现",
+    "priority": "task_triggered",
+    "implemented": false
+  },
+  {
+    "id": "U07",
+    "name": "可调约束与执行语义",
+    "parents": "L01—L08、H03/H04",
+    "requirement": "观测模式/修正模式；约束适用域；兼容路径不改目标输出；随机数和精度合同",
+    "first_check": "同权重兼容模式输出不被附加层改变",
+    "priority": "task_triggered",
+    "implemented": false
+  },
+  {
+    "id": "U08",
+    "name": "构造导入与符合性检验",
+    "parents": "G07、H07/H08",
+    "requirement": "目标图/参数导入、算子覆盖、输出/梯度/状态差异、成本报告",
+    "first_check": "有界模型覆盖清单和逐项通过记录",
+    "priority": "optional_compatibility_engineering",
+    "implemented": false
+  }
+]
