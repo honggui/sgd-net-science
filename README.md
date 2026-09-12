@@ -2,7 +2,7 @@
 
 **图结构、时间记忆、几何约束与自适应计算的模型架构研究。**
 
-[GitHub 项目](https://github.com/honggui/sgd-net-science) · [开始阅读](guide/start-here.md) · [全书目录](SUMMARY.md)
+[在线阅读](https://honggui.github.io/sgd-net-science/) · [GitHub 项目](https://github.com/honggui/sgd-net-science) · [开始阅读](guide/start-here.md) · [全书目录](SUMMARY.md)
 
 这里公开 SGD-Net 的论文、模型组件、数学分析和领域构建方案。当前是研究设计文档，未附训练代码、模型权重或已验证的性能成绩。
 
@@ -36,18 +36,19 @@
 
 ## 阅读方式 <a href="#section-003" id="section-003"></a>
 
-GitBook 侧栏按主题组织章节，13 与 36 两篇长文拆为独立章节，页面内提供目录和前后页导航。GitHub 用户可从本页或 SUMMARY.md 直接阅读同一份文档。
+在线阅读站与 GitBook 侧栏按主题组织章节，13 与 36 两篇长文拆为独立章节，页面内提供目录和前后页导航。GitHub 用户可从本页或 SUMMARY.md 直接阅读同一份文档。
 
 完整研究内容来自 33 篇公开文档；组件登记包含 72 个顶层单元、27 个内部接口与七领域的 56 个单元。配置与计数不代表已实现能力，也不要求每个任务同时启用全部组件。
 
 ## 附录与维护 <a href="#section-004" id="section-004"></a>
 
 - [可阅读的组件登记](architecture/README.md)
+- [在线阅读、自动发布与 Wiki 入口](guide/publishing.md)
 - [GitBook 接入与维护](GITBOOK_SETUP.md)
 - [公式与图示显示检查](guide/rendering-check.md)
 - [许可说明](NOTICE.md)
 
-文中原始文献用于界定已有研究与候选贡献；首次导入 GitBook 后请预览公式和图示，再发布站点。本包本身是可同步的内容源，不是已经上线的网址。
+文中原始文献用于界定已有研究与候选贡献；在线阅读站随 main 分支更新自动构建发布；GitBook 是可选的另一种发布方式，首次导入后仍需预览公式和图示。
 
 ---
 

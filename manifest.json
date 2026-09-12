@@ -1,8 +1,8 @@
 {
-  "edition": "gitbook-20260912",
+  "edition": "gitbook-pages-20260912",
   "project": "https://github.com/honggui/sgd-net-science",
   "source_documents": 33,
-  "reading_pages": 100,
+  "reading_pages": 101,
   "split_chapter_pages": 59,
   "top_components": 72,
   "internal_interfaces": 27,
@@ -20,9 +20,39 @@
       "bytes": 62
     },
     {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "fa013a208681dd72adefd4ae8919f4550c8628dd76409d65edd1a9ee756839c7",
+      "bytes": 975
+    },
+    {
       "path": ".gitignore",
-      "sha256": "c6497796e19619e756c6fe60b2cf8355e30890a3f48360435b9de538cafa905f",
-      "bytes": 74
+      "sha256": "ae0a592033760acb343cb9d607aa8f57749f0443cd8691f05bddb94a19c2e759",
+      "bytes": 122
+    },
+    {
+      "path": "GITBOOK_SETUP.md",
+      "sha256": "09eeac2131f04184bf8dfabdba8e62ee2f0a6810f221ca01b3f7d013cf086d92",
+      "bytes": 3677
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "5ac5164a3d94e4f22d55cc9ed11c8bb353d10222a15ef0e9a9e43ea1087c563e",
+      "bytes": 785
+    },
+    {
+      "path": "README.md",
+      "sha256": "c47e4a7bf6897567c7d396e2353dd7811f32a38cf2d8d14c2ed65360cc179ce1",
+      "bytes": 3045
+    },
+    {
+      "path": "SUMMARY.md",
+      "sha256": "0ed1b2f9619efd09ce6c1113954327ab2050e9052dc0a2820242fb3c176a576d",
+      "bytes": 8021
+    },
+    {
+      "path": "architecture/README.md",
+      "sha256": "d9d2f9686aecfc03ef246fb8efe3947e13b1064eab8e91c3cf0e1ea4f3050fde",
+      "bytes": 9364
     },
     {
       "path": "architecture/component_registry.json",
@@ -43,11 +73,6 @@
       "path": "architecture/implicit_evolution_subunits.json",
       "sha256": "ae6485f151fb079d3db4d87e3b4d772475c0eb3f39775f9604dae78d8ba02241",
       "bytes": 2327
-    },
-    {
-      "path": "architecture/README.md",
-      "sha256": "d9d2f9686aecfc03ef246fb8efe3947e13b1064eab8e91c3cf0e1ea4f3050fde",
-      "bytes": 9364
     },
     {
       "path": "docs/01-SGD-Net学术论文.md",
@@ -510,19 +535,19 @@
       "bytes": 3120
     },
     {
-      "path": "GITBOOK_SETUP.md",
-      "sha256": "c5c04e01a0f177617a9982f68b2c192c4c9d612d17bd4ba9f90a69a913693ff0",
-      "bytes": 3609
-    },
-    {
       "path": "guide/glossary.md",
       "sha256": "9fdc49e6817e02d03fc59a9b0f96b8df0b1f76c50b40981e1b106639e1a75d37",
       "bytes": 1317
     },
     {
+      "path": "guide/publishing.md",
+      "sha256": "bce5ac73a6af9497e66214c9cf8eea574de7df9bd797262b33d583c82d643aa4",
+      "bytes": 3682
+    },
+    {
       "path": "guide/rendering-check.md",
-      "sha256": "d6df1b0d932485ae94b36284a1701abe6bb93914f581b137ad3aa2ce5ae5b375",
-      "bytes": 1262
+      "sha256": "6044e8c51612708d2f1cdf673de707dd6c94c3b01ee0e6db4d0ff5b99b106241",
+      "bytes": 1278
     },
     {
       "path": "guide/start-here.md",
@@ -535,19 +560,45 @@
       "bytes": 1018
     },
     {
-      "path": "NOTICE.md",
-      "sha256": "5ac5164a3d94e4f22d55cc9ed11c8bb353d10222a15ef0e9a9e43ea1087c563e",
-      "bytes": 785
+      "path": "requirements-docs.txt",
+      "sha256": "4de5f887c415ab4e7d9dc8b2891bdd389818fbc39d732bb70f143ef6c012f815",
+      "bytes": 64
     },
     {
-      "path": "README.md",
-      "sha256": "765e5e3d6e74cf00fd05a82520f6b4ee608255070754be5b1f1f8774543f0b14",
-      "bytes": 2888
+      "path": "scripts/build_site.py",
+      "sha256": "0e76d4c0ba6f4cb219070686ce3454de950288ea7b3b692ff2d4b43402e7f455",
+      "bytes": 5663
     },
     {
-      "path": "SUMMARY.md",
-      "sha256": "c8493da14a3eb58febb9dd177dab59e8779d0c189a071e572764224fc1f54826",
-      "bytes": 7967
+      "path": "scripts/check_site.py",
+      "sha256": "15124a7f32afeccb4eb7d00228d9065121d45cf761375f91791896606f945a31",
+      "bytes": 3099
+    },
+    {
+      "path": "scripts/update_manifest.py",
+      "sha256": "5fe59fad1f3d81356bbfa58d81eadb715d8be21b0ac01e836060210ad0cc7855",
+      "bytes": 1219
+    },
+    {
+      "path": "site-assets/diagrams.js",
+      "sha256": "12f4b4bd5d042174bd9139cb49bc982951e3f8375ea63285acec22985b491147",
+      "bytes": 712
+    },
+    {
+      "path": "site-assets/math.js",
+      "sha256": "6063ae82d716ccab906cbc026fcc69e26524f7a60b26a6dec0d57c19b293be19",
+      "bytes": 231
+    },
+    {
+      "path": "site-assets/reading.css",
+      "sha256": "1d4552c1609a6f908746b8a267a615da000375b233c77bf9b1666b7f6e4e8a99",
+      "bytes": 247
+    },
+    {
+      "path": "wiki-entry/Home.md",
+      "sha256": "f07ecbbd1ccfa5ee40bd645867de7b2fefffdc73a629e2017cae0feeaaa445d9",
+      "bytes": 885
     }
-  ]
+  ],
+  "site_url": "https://honggui.github.io/sgd-net-science/"
 }

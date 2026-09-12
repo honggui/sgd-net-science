@@ -121,3 +121,5 @@
 * [公式与图示检查](guide/rendering-check.md)
 * [许可说明](NOTICE.md)
 * [接入与维护](GITBOOK_SETUP.md)
+
+* [在线阅读与发布维护](guide/publishing.md)

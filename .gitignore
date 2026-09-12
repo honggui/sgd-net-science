@@ -6,3 +6,8 @@ Thumbs.db
 .env.*
 !.env.example
 *.zip
+
+.venv-docs/
+.site-source-*/
+site/
+__pycache__/

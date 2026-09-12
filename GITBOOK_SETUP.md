@@ -28,7 +28,7 @@
 
 ## 3. 给 GitHub 访问者提供入口 <a href="#section-003" id="section-003"></a>
 
-发布成功后，将实际站点地址填写到 GitHub 项目的 About → Website，并在仓库 README 的阅读入口加入“在线阅读”链接。站点尚未创建时不要使用猜测的网址。本包的 README 和 SUMMARY 已能在 GitHub 内直接导航。
+本项目优先使用 [GitHub Pages 在线阅读站](https://honggui.github.io/sgd-net-science/)，发布与 Wiki 入口见[维护说明](guide/publishing.md)。GitBook 可作为另一种阅读方式；若另行发布 GitBook 站点，使用其实际生成的地址补充入口。README 和 SUMMARY 也支持在 GitHub 内直接导航。
 
 ## 4. 公式、图示与目录 <a href="#section-004" id="section-004"></a>
 
