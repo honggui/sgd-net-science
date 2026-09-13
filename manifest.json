@@ -2,7 +2,7 @@
   "edition": "bilingual-gitbook-pages-20260912",
   "project": "https://github.com/honggui/sgd-net-science",
   "source_documents": 33,
-  "reading_pages": 206,
+  "reading_pages": 208,
   "split_chapter_pages": 59,
   "top_components": 72,
   "internal_interfaces": 27,
@@ -41,13 +41,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "2fd938f0a4e9ff38d3abb2c348331bbec7a7c854102b8f254b5b2296826bb0cd",
-      "bytes": 3656
+      "sha256": "9841b79bf45f392b61c0141d9aa6cdb28eccf985f895ba41070634b80d99db5e",
+      "bytes": 3830
     },
     {
       "path": "SUMMARY.md",
-      "sha256": "d564f496c54578c385926f8c97a22fbcdb4c556d907a25fc709491ccae499043",
-      "bytes": 16600
+      "sha256": "481c8438825d9d56168701144a8d04d19e6e04b4323d31115434cac83eea83f6",
+      "bytes": 16832
     },
     {
       "path": "architecture/README.md",
@@ -96,8 +96,8 @@
     },
     {
       "path": "en/SUMMARY.md",
-      "sha256": "48a5da1d1cdbd53e89fd0486bb5b5daca1d1992a70819ace937e25c6a14a54e1",
-      "bytes": 9246
+      "sha256": "306613ce2a7bd691dd552c5b5bb181d00ac62e538f7b10b49f2db76f7f648aeb",
+      "bytes": 9381
     },
     {
       "path": "en/architecture/README.md",
@@ -251,13 +251,13 @@
     },
     {
       "path": "en/docs/47.md",
-      "sha256": "5dfd3874dd2ed378b17cb3b0bb68672ad6c59a5ac485bb7bd99946d55b0d131a",
-      "bytes": 20863
+      "sha256": "5c870607b8064c5f10d96cc56fe1fa5a1481b8d4e1fd738507532241c5f17d88",
+      "bytes": 21184
     },
     {
       "path": "en/docs/48.md",
-      "sha256": "169ef27983f1ddf7a249e7148d3df4a98f248c5c5c63f747719a41ec60970725",
-      "bytes": 20318
+      "sha256": "a8a5d2b447e55ae2feeb7ff2ffd78dd01b47dac7cabdb9bb3189174a04b02af6",
+      "bytes": 20643
     },
     {
       "path": "en/docs/49.md",
@@ -575,6 +575,11 @@
       "bytes": 1806
     },
     {
+      "path": "en/guide/mathematical-computing-foundation.md",
+      "sha256": "53fef0869fa8848f286640c649024450d5e27ddeed04add1080cd1ac9045c124",
+      "bytes": 19876
+    },
+    {
       "path": "en/guide/publishing.md",
       "sha256": "0e4b4cbed673218c25885cebb141368d36cf908383c2e92c91a38597f366f1b8",
       "bytes": 3965
@@ -596,8 +601,8 @@
     },
     {
       "path": "en/guide/transformer-comparison.md",
-      "sha256": "94c06414a3a857686c5c8ceb3a9270a6e64c6ae96db6dec719d03b6dd00fb519",
-      "bytes": 16093
+      "sha256": "68d8fafc985bfd7fcf7a7497faa52cab291f7eaffff5bf3486a911c9a15c1f17",
+      "bytes": 16407
     },
     {
       "path": "i18n/legacy-paths.json",
@@ -606,8 +611,8 @@
     },
     {
       "path": "i18n/translations.json",
-      "sha256": "f1220dfabc40ffd1d5f50038b4a9c6144ee892013a297c9ba78cfa2de257371b",
-      "bytes": 23710
+      "sha256": "fa57541d941418d502b17c057344165a0f78c4dbaf0b90ae18e0de870b78b5be",
+      "bytes": 23956
     },
     {
       "path": "requirements-docs.txt",
@@ -701,8 +706,8 @@
     },
     {
       "path": "zh/SUMMARY.md",
-      "sha256": "059555e9947b899266f5a690b11bf8125a060c0033b67024f332ef838e2c20e8",
-      "bytes": 6533
+      "sha256": "c755ff7beec25f5b29e78308c68ac805c4fdc29b4dad64a02ff3b346d17459f4",
+      "bytes": 6624
     },
     {
       "path": "zh/architecture/README.md",
@@ -856,13 +861,13 @@
     },
     {
       "path": "zh/docs/47.md",
-      "sha256": "6cda1d1f891e08be7c7bfbf2254c34b31048ed53194c4b0394287683e019b1e5",
-      "bytes": 16060
+      "sha256": "b669d50c17c436ddd20925577a973655d919f80342510011020c528a02a34d4f",
+      "bytes": 16328
     },
     {
       "path": "zh/docs/48.md",
-      "sha256": "c23ca77f2e72bc19bb6da80f3ab07d88dd8e389dcd0f90dafb5a7be21db7d6f8",
-      "bytes": 15752
+      "sha256": "acb0befac7d17f86299e1fb3948d26610978448ed2d793313eac066e14420431",
+      "bytes": 16015
     },
     {
       "path": "zh/docs/49.md",
@@ -1180,6 +1185,11 @@
       "bytes": 1317
     },
     {
+      "path": "zh/guide/mathematical-computing-foundation.md",
+      "sha256": "b926071edbf017f1a81dd0fab64ff6d24fa61b273b26cc0ac278eea405512546",
+      "bytes": 16536
+    },
+    {
       "path": "zh/guide/publishing.md",
       "sha256": "b7fb27144efd14b1aa5175a3fbaea0be016ffb45fcdabf7bd16c41a4a023a9f8",
       "bytes": 3378
@@ -1201,8 +1211,8 @@
     },
     {
       "path": "zh/guide/transformer-comparison.md",
-      "sha256": "cfaaf648c1388c5b2b9bde5a579f280acbdb9ebf567b0e3bf4620f07a070658f",
-      "bytes": 13647
+      "sha256": "26b3df0cf5a100c4b3242c327ff8b71050f917e6e9ddab5fdecfe662171750fe",
+      "bytes": 13895
     }
   ],
   "site_url": "https://honggui.github.io/sgd-net-science/",
@@ -1211,7 +1221,7 @@
     "en"
   ],
   "reading_pages_per_language": {
-    "zh": 103,
-    "en": 103
+    "zh": 104,
+    "en": 104
   }
 }

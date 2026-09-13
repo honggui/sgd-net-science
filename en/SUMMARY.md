@@ -14,6 +14,7 @@
 * [32 · SGD-Net Research Integration Assessment and Innovation Boundaries](docs/32.md)
 * [47 · SGD-Net Generality Review and Constructible Model Coverage Proposal](docs/47.md)
 * [SGD-Net and Transformer: Operator Coverage, Architectural Differences, and Proposed Additions](guide/transformer-comparison.md)
+* [Graph Memory, Model Equivalence, and Mathematics-Driven Software and Hardware Planning](guide/mathematical-computing-foundation.md)
 
 ## Core model architecture
 

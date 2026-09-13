@@ -14,6 +14,7 @@
 * [32 · 融合评估与创新边界](docs/32.md)
 * [47 · 通用性与能力边界](docs/47.md)
 * [Transformer 算子与架构对比](guide/transformer-comparison.md)
+* [图记忆、数学等价性与计算基础](guide/mathematical-computing-foundation.md)
 
 ## 核心模型架构
 

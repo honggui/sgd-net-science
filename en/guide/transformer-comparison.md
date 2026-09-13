@@ -4,6 +4,8 @@
 
 ## 1. Conclusion and evidence scope <a id="section-001"></a>
 
+Further clarification: [graph memory and mathematical computing foundations](mathematical-computing-foundation.md). D04 compressed state in the tables is not all of SGD-Net's memory; persistent temporal graphs, records, and indexes can also retain history, with their capacity and query costs counted separately.
+
 SGD-Net needs many basic operators used by Transformers: linear projections, nonlinearities, residuals, normalization, masks, reductions, and tensor layout operations. These also underpin graph messages, state gating, and domain readouts. Global or cross-modal attention and addressable history should be enabled according to task needs.
 
 The most accurate assessment is: **basic computations have relatively concrete definitions; full attention and caching have assigned extension slots; execution contracts for modern Transformer variants remain incomplete; end-to-end compatibility has not been validated.** An interface to a pretrained encoder does not establish an internal Transformer implementation.

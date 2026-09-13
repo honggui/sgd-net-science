@@ -20,8 +20,8 @@
     },
     {
       "path": "SUMMARY.md",
-      "zh_sha256": "059555e9947b899266f5a690b11bf8125a060c0033b67024f332ef838e2c20e8",
-      "en_sha256": "48a5da1d1cdbd53e89fd0486bb5b5daca1d1992a70819ace937e25c6a14a54e1"
+      "zh_sha256": "c755ff7beec25f5b29e78308c68ac805c4fdc29b4dad64a02ff3b346d17459f4",
+      "en_sha256": "306613ce2a7bd691dd552c5b5bb181d00ac62e538f7b10b49f2db76f7f648aeb"
     },
     {
       "path": "architecture/README.md",
@@ -175,13 +175,13 @@
     },
     {
       "path": "docs/47.md",
-      "zh_sha256": "6cda1d1f891e08be7c7bfbf2254c34b31048ed53194c4b0394287683e019b1e5",
-      "en_sha256": "5dfd3874dd2ed378b17cb3b0bb68672ad6c59a5ac485bb7bd99946d55b0d131a"
+      "zh_sha256": "b669d50c17c436ddd20925577a973655d919f80342510011020c528a02a34d4f",
+      "en_sha256": "5c870607b8064c5f10d96cc56fe1fa5a1481b8d4e1fd738507532241c5f17d88"
     },
     {
       "path": "docs/48.md",
-      "zh_sha256": "c23ca77f2e72bc19bb6da80f3ab07d88dd8e389dcd0f90dafb5a7be21db7d6f8",
-      "en_sha256": "169ef27983f1ddf7a249e7148d3df4a98f248c5c5c63f747719a41ec60970725"
+      "zh_sha256": "acb0befac7d17f86299e1fb3948d26610978448ed2d793313eac066e14420431",
+      "en_sha256": "a8a5d2b447e55ae2feeb7ff2ffd78dd01b47dac7cabdb9bb3189174a04b02af6"
     },
     {
       "path": "docs/49.md",
@@ -499,6 +499,11 @@
       "en_sha256": "f6c031ec89e1e0f6c99d086c4c04a68ca7c32f5af48930fad36cd82183d58866"
     },
     {
+      "path": "guide/mathematical-computing-foundation.md",
+      "zh_sha256": "b926071edbf017f1a81dd0fab64ff6d24fa61b273b26cc0ac278eea405512546",
+      "en_sha256": "53fef0869fa8848f286640c649024450d5e27ddeed04add1080cd1ac9045c124"
+    },
+    {
       "path": "guide/publishing.md",
       "zh_sha256": "b7fb27144efd14b1aa5175a3fbaea0be016ffb45fcdabf7bd16c41a4a023a9f8",
       "en_sha256": "0e4b4cbed673218c25885cebb141368d36cf908383c2e92c91a38597f366f1b8"
@@ -520,8 +525,8 @@
     },
     {
       "path": "guide/transformer-comparison.md",
-      "zh_sha256": "cfaaf648c1388c5b2b9bde5a579f280acbdb9ebf567b0e3bf4620f07a070658f",
-      "en_sha256": "94c06414a3a857686c5c8ceb3a9270a6e64c6ae96db6dec719d03b6dd00fb519"
+      "zh_sha256": "26b3df0cf5a100c4b3242c327ff8b71050f917e6e9ddab5fdecfe662171750fe",
+      "en_sha256": "68d8fafc985bfd7fcf7a7497faa52cab291f7eaffff5bf3486a911c9a15c1f17"
     }
   ]
 }
