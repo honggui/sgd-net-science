@@ -14,6 +14,7 @@ SGD-Net Science publishes research papers, a model component catalog, mathematic
 | [Full contents](en/SUMMARY.md) | [全书目录](zh/SUMMARY.md) |
 | [Paper and research questions](en/docs/01.md) | [论文与研究问题](zh/docs/01.md) |
 | [Unified architecture and components](en/docs/36.md) | [统一架构与组件全集](zh/docs/36.md) |
+| [Transformer comparison](en/guide/transformer-comparison.md) | [Transformer 算子与架构对比](zh/guide/transformer-comparison.md) |
 | [Research status](en/guide/status.md) | [研究状态](zh/guide/status.md) |
 | [Component registry](en/architecture/README.md) | [组件登记](zh/architecture/README.md) |
 

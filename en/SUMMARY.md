@@ -13,6 +13,7 @@
 * [01 · SGD-Net: An Error-Driven Adaptive Neural Architecture Combining State-Space Models, Topological/Equivariant Graph Neural Networks, and Adaptive Decision Trees](docs/01.md)
 * [32 · SGD-Net Research Integration Assessment and Innovation Boundaries](docs/32.md)
 * [47 · SGD-Net Generality Review and Constructible Model Coverage Proposal](docs/47.md)
+* [SGD-Net and Transformer: Operator Coverage, Architectural Differences, and Proposed Additions](guide/transformer-comparison.md)
 
 ## Core model architecture
 

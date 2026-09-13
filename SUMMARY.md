@@ -18,6 +18,7 @@
 * [01 · 论文与研究问题](zh/docs/01.md)
 * [32 · 融合评估与创新边界](zh/docs/32.md)
 * [47 · 通用性与能力边界](zh/docs/47.md)
+* [Transformer 算子与架构对比](zh/guide/transformer-comparison.md)
 
 ## 中文 · 核心模型架构
 
@@ -147,6 +148,7 @@
 * [01 · SGD-Net: An Error-Driven Adaptive Neural Architecture Combining State-Space Models, Topological/Equivariant Graph Neural Networks, and Adaptive Decision Trees](en/docs/01.md)
 * [32 · SGD-Net Research Integration Assessment and Innovation Boundaries](en/docs/32.md)
 * [47 · SGD-Net Generality Review and Constructible Model Coverage Proposal](en/docs/47.md)
+* [SGD-Net and Transformer: Operator Coverage, Architectural Differences, and Proposed Additions](en/guide/transformer-comparison.md)
 
 ## English · Core model architecture
 

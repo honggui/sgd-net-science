@@ -20,8 +20,8 @@
     },
     {
       "path": "SUMMARY.md",
-      "zh_sha256": "47cc109a102dc1f0ff9c24daa8b92f8bebb47c8a74a28dda9d5b3bbfd0c0c075",
-      "en_sha256": "e6d0f72024665c16c4170a30dad79611489a7a31c8b49ef3669781d687eeeccb"
+      "zh_sha256": "059555e9947b899266f5a690b11bf8125a060c0033b67024f332ef838e2c20e8",
+      "en_sha256": "48a5da1d1cdbd53e89fd0486bb5b5daca1d1992a70819ace937e25c6a14a54e1"
     },
     {
       "path": "architecture/README.md",
@@ -175,8 +175,8 @@
     },
     {
       "path": "docs/47.md",
-      "zh_sha256": "1f2ff57e15b5e80d6b634c06bcec5a2ad4f4a6a64f1ec4508715ff58185a38d4",
-      "en_sha256": "0227d20ff5923e040d55408b657734326c6c6f80bc1a957f65a5aaf477b5bb6e"
+      "zh_sha256": "6cda1d1f891e08be7c7bfbf2254c34b31048ed53194c4b0394287683e019b1e5",
+      "en_sha256": "5dfd3874dd2ed378b17cb3b0bb68672ad6c59a5ac485bb7bd99946d55b0d131a"
     },
     {
       "path": "docs/48.md",
@@ -517,6 +517,11 @@
       "path": "guide/status.md",
       "zh_sha256": "616b191d5ef4f5f3a651680c32c26c41be21901976edfd12ddaa55539bfa1d08",
       "en_sha256": "f333371f5ef6047e12ac7fa7fd7c2341d5a8af0142062e2c2294e630836ed055"
+    },
+    {
+      "path": "guide/transformer-comparison.md",
+      "zh_sha256": "cfaaf648c1388c5b2b9bde5a579f280acbdb9ebf567b0e3bf4620f07a070658f",
+      "en_sha256": "94c06414a3a857686c5c8ceb3a9270a6e64c6ae96db6dec719d03b6dd00fb519"
     }
   ]
 }
