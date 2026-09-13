@@ -2,7 +2,7 @@
   "edition": "bilingual-gitbook-pages-20260912",
   "project": "https://github.com/honggui/sgd-net-science",
   "source_documents": 33,
-  "reading_pages": 208,
+  "reading_pages": 210,
   "split_chapter_pages": 59,
   "top_components": 72,
   "internal_interfaces": 27,
@@ -46,8 +46,8 @@
     },
     {
       "path": "SUMMARY.md",
-      "sha256": "481c8438825d9d56168701144a8d04d19e6e04b4323d31115434cac83eea83f6",
-      "bytes": 16832
+      "sha256": "3821142bc8d3a11a39e6497cbc352a2bbf0aee5bae389a130bb0351cff90652e",
+      "bytes": 17041
     },
     {
       "path": "architecture/README.md",
@@ -96,8 +96,8 @@
     },
     {
       "path": "en/SUMMARY.md",
-      "sha256": "306613ce2a7bd691dd552c5b5bb181d00ac62e538f7b10b49f2db76f7f648aeb",
-      "bytes": 9381
+      "sha256": "5a76b2914f9bada6f13c6b34a843c8d1e197c36ea8474fd877ef7c5bfa8badc3",
+      "bytes": 9496
     },
     {
       "path": "en/architecture/README.md",
@@ -196,8 +196,8 @@
     },
     {
       "path": "en/docs/36.md",
-      "sha256": "645bbf25656a8c5ef8eee71d208f7660e58c3353580ad6a17f6f8885ea845470",
-      "bytes": 3875
+      "sha256": "ef0a2bf995bc631949f1dee1bf6cafd894b4c87cf6e57957acc5d934c04530c5",
+      "bytes": 4258
     },
     {
       "path": "en/docs/37.md",
@@ -246,8 +246,8 @@
     },
     {
       "path": "en/docs/46.md",
-      "sha256": "336bd6f4f2f978979bc4a82b159fb2e9e9cb4bc715649a4954b0235bf94d575b",
-      "bytes": 13597
+      "sha256": "28248e1a7eac2d8b2da81d6ce867d0ac33c9d82fb29bf198f5f51c8295ac0f79",
+      "bytes": 13975
     },
     {
       "path": "en/docs/47.md",
@@ -266,8 +266,8 @@
     },
     {
       "path": "en/docs/50.md",
-      "sha256": "f787c9fc045292b25937565e4ce5754fa9f2d9a33645802ea945daf35d8de17d",
-      "bytes": 10968
+      "sha256": "039d1ed8fcb5790dbcf433370c97a9472cbf15fb2fa0014d8e66ee8264d1534e",
+      "bytes": 11294
     },
     {
       "path": "en/docs/chapters/13/section-01.md",
@@ -521,8 +521,8 @@
     },
     {
       "path": "en/docs/chapters/36/section-21.md",
-      "sha256": "af14efed44b8d1a030349cfc55165cea361dfc1bc82e19a611e54e1302adb0d3",
-      "bytes": 7262
+      "sha256": "ed3e564c677d129483ab1a6ec510c75cc6e1b2ef78a3946b59d2683a5e78a2ac",
+      "bytes": 7684
     },
     {
       "path": "en/docs/chapters/36/section-22.md",
@@ -576,8 +576,13 @@
     },
     {
       "path": "en/guide/mathematical-computing-foundation.md",
-      "sha256": "53fef0869fa8848f286640c649024450d5e27ddeed04add1080cd1ac9045c124",
-      "bytes": 19876
+      "sha256": "5029fe8e37e1b9bc77edcfff856db7d6cdc9cdbbf1c148572279c4734290e5ea",
+      "bytes": 20140
+    },
+    {
+      "path": "en/guide/memory-reasoning-parallel-generation.md",
+      "sha256": "7745086122728cb40e36e744ac272e27233060a1478bfe18743658106c61926f",
+      "bytes": 10776
     },
     {
       "path": "en/guide/publishing.md",
@@ -611,8 +616,8 @@
     },
     {
       "path": "i18n/translations.json",
-      "sha256": "fa57541d941418d502b17c057344165a0f78c4dbaf0b90ae18e0de870b78b5be",
-      "bytes": 23956
+      "sha256": "b5e29821dcdadd2b97653fd057b7c80af5807fb2f76079f08925671d273f53ed",
+      "bytes": 24205
     },
     {
       "path": "requirements-docs.txt",
@@ -706,8 +711,8 @@
     },
     {
       "path": "zh/SUMMARY.md",
-      "sha256": "c755ff7beec25f5b29e78308c68ac805c4fdc29b4dad64a02ff3b346d17459f4",
-      "bytes": 6624
+      "sha256": "45823cdd1a0727c7783bf8c1da6adff2716d8b004478722736e8ed4685724a34",
+      "bytes": 6712
     },
     {
       "path": "zh/architecture/README.md",
@@ -806,8 +811,8 @@
     },
     {
       "path": "zh/docs/36.md",
-      "sha256": "c094eb1535657c4c2cbbabadedca94edfa38db2220e5670e8f9cbc4566a2aa98",
-      "bytes": 3082
+      "sha256": "eaa56ae7b1fd3df758dec9e179c1cadb47b77a3b78c63a4b227bdd1f537f2175",
+      "bytes": 3374
     },
     {
       "path": "zh/docs/37.md",
@@ -856,8 +861,8 @@
     },
     {
       "path": "zh/docs/46.md",
-      "sha256": "a7df85734f467463489e1c1fb637a5f1143cecb3e3a3e0838a69bc2b669dad22",
-      "bytes": 10393
+      "sha256": "f0e3a38f0af86986b5ba0b890f1fb7db6f67272699edaf1fa30366ab08a6b847",
+      "bytes": 10692
     },
     {
       "path": "zh/docs/47.md",
@@ -876,8 +881,8 @@
     },
     {
       "path": "zh/docs/50.md",
-      "sha256": "880323a4b73cf73f9715a4e8553f900eaba0b24c1385f8794c832829280777cd",
-      "bytes": 8155
+      "sha256": "ffc0705315fc4f2d7e386194ade51a4a97fdcf22404b82825b9a3adbbaa9cc09",
+      "bytes": 8442
     },
     {
       "path": "zh/docs/chapters/13/section-01.md",
@@ -1131,8 +1136,8 @@
     },
     {
       "path": "zh/docs/chapters/36/section-21.md",
-      "sha256": "96787ed3acb95c70be6a0abe552418ff63ff5f46e55f03e32f388fa845b1a513",
-      "bytes": 5853
+      "sha256": "f5784be1c81db9dc934b5ae1623ee27d4d16250e98d7f6aa306224b8b6da6293",
+      "bytes": 6188
     },
     {
       "path": "zh/docs/chapters/36/section-22.md",
@@ -1186,8 +1191,13 @@
     },
     {
       "path": "zh/guide/mathematical-computing-foundation.md",
-      "sha256": "b926071edbf017f1a81dd0fab64ff6d24fa61b273b26cc0ac278eea405512546",
-      "bytes": 16536
+      "sha256": "506a1733c9205059fea8696a8e68fd179a59865de19992ffa46a897fcf452c22",
+      "bytes": 16746
+    },
+    {
+      "path": "zh/guide/memory-reasoning-parallel-generation.md",
+      "sha256": "68af59cc2c46c983de8eefd61ca91adc267b3b4a68df77ed57206b2d7c7221a7",
+      "bytes": 9103
     },
     {
       "path": "zh/guide/publishing.md",
@@ -1221,7 +1231,7 @@
     "en"
   ],
   "reading_pages_per_language": {
-    "zh": 104,
-    "en": 104
+    "zh": 105,
+    "en": 105
   }
 }

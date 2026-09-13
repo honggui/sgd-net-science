@@ -98,6 +98,7 @@
 * [14 · 双闭环控制与认知类比](zh/docs/14.md)
 * [17 · 复盘与自进化设计](zh/docs/17.md)
 * [50 · 反思、回顾与复盘](zh/docs/50.md)
+* [记忆—推理巩固与并行生成](zh/guide/memory-reasoning-parallel-generation.md)
 * [25 · 物理约束与执行检查](zh/docs/25.md)
 
 ## 中文 · 领域模型与科学应用
@@ -229,6 +230,7 @@
 * [14 · SGD-Net Dual-Loop Control and Brain-Inspired Cognitive Architecture](en/docs/14.md)
 * [17 · SGD-Net Retrospective Analysis and Dynamic Self-Evolution Mechanisms: White Paper](en/docs/17.md)
 * [50 · SGD-Net: Foundations and Closed-Loop Improvements for Reflection, Review, and Retrospective Analysis](en/docs/50.md)
+* [Memory–Reasoning Consolidation and Parallel Generation Design](en/guide/memory-reasoning-parallel-generation.md)
 * [25 · SGD-Harness Physical Conservation Sentinel and Equivariant Self-Evolution Loop](en/docs/25.md)
 
 ## English · Domain models and scientific applications

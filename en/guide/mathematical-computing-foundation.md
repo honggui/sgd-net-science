@@ -1,5 +1,7 @@
 # Graph Memory, Model Equivalence, and Mathematics-Driven Software and Hardware Planning
 
+For subsequent design, see [memory–reasoning consolidation and parallel generation](memory-reasoning-parallel-generation.md): real-time state updates, long-term consolidation, evidence retention, and isolation between parallel candidates and actual experience.
+
 > 2026-09-13. Further revision of the SGD-Net/Transformer comparison. This document distinguishes data representations, learned models, and execution systems. It proposes research contracts and functional planning, not new model experiments, universality theorems, or chip implementations. Existing top-level component IDs are unchanged.
 
 ## 1. Correction: graphs can hold history; SSM is not the only memory <a id="section-001"></a>

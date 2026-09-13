@@ -81,6 +81,8 @@ $$
 
 ## E07 Conditional Generation Head <a href="#section-007" id="section-007"></a>
 
+The 2026-09-13 integration contract is in [memory–reasoning consolidation and parallel generation](../../../guide/memory-reasoning-parallel-generation.md). A continuous example exists; discrete token generation still needs corruption, loss, and sampling definitions. Each round reads frozen snapshots; generation clocks must not advance D04 physical time. Local updates must handle dependencies and cache invalidation.
+
 **Role and mathematics.** As an optional example, use conditional flow matching:
 
 $$

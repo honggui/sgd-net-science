@@ -93,6 +93,7 @@
 * [14 · 双闭环控制与认知类比](docs/14.md)
 * [17 · 复盘与自进化设计](docs/17.md)
 * [50 · 反思、回顾与复盘](docs/50.md)
+* [记忆—推理巩固与并行生成](guide/memory-reasoning-parallel-generation.md)
 * [25 · 物理约束与执行检查](docs/25.md)
 
 ## 领域模型与科学应用

@@ -93,6 +93,7 @@
 * [14 · SGD-Net Dual-Loop Control and Brain-Inspired Cognitive Architecture](docs/14.md)
 * [17 · SGD-Net Retrospective Analysis and Dynamic Self-Evolution Mechanisms: White Paper](docs/17.md)
 * [50 · SGD-Net: Foundations and Closed-Loop Improvements for Reflection, Review, and Retrospective Analysis](docs/50.md)
+* [Memory–Reasoning Consolidation and Parallel Generation Design](guide/memory-reasoning-parallel-generation.md)
 * [25 · SGD-Harness Physical Conservation Sentinel and Equivariant Self-Evolution Loop](docs/25.md)
 
 ## Domain models and scientific applications
